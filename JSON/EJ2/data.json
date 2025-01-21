@@ -1,7 +1,7 @@
 [
   {
     "nombre" : "Real Madrid",
-    "creacion" : 1906,
+    "fundacion" : 1906,
     "europeo" : true,
     "pais" : "España",
     "estadio" : "Santiago Benabeu"
@@ -9,7 +9,7 @@
 
   {
     "nombre" : "Olympique de Marseille",
-    "creacion" : 1899,
+    "fundacion" : 1899,
     "europeo" : true,
     "pais" : "Francia",
     "estadio" : "Stade Vélodrome"
@@ -17,7 +17,7 @@
 
   {
     "nombre" : "Palmeiras",
-    "creacion" : 1914,
+    "fundacion" : 1914,
     "europeo" : false,
     "pais" : "Brasil",
     "estadio" : "Allianz Parque"
@@ -25,9 +25,17 @@
 
   {
     "nombre" : "Celtic",
-    "creacion" : 1887,
+    "fundacion" : 1887,
     "europeo" : true,
     "pais" : "Escocia",
     "estadio" : "Celtic Park"
+  },
+
+  {
+    "nombre" : "Como",
+    "fundacion" : 1907,
+    "europeo" : true,
+    "pais" : "Italia",
+    "estadio" : "Estadio Giuseppe Sinigaglia"
   }
 ]

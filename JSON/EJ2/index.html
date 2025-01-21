@@ -18,16 +18,26 @@
     th {
       background-color: #f4f4f4;
     }
+    .imagen{
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <h1 style="text-align:center;">Datos desde JSON</h1>
+
+  <!--Filtros-->
+  <div style="text-align: center;">
+    <input type="text" id="nameFilter" placeholder="Nombre" oninput="filterData()">
+  </div>
+
+  <!--Tabla-->
   <div id="data-container" style="text-align:center;">
-    <table>
+    <table border="3">
       <thead>
         <tr>
           <th>Nombre</th>
-          <th>Año de creacion</th>
+          <th>Fundacion</th>
           <th>Europeo</th>
           <th>Pais</th>
           <th>Estadio</th>
@@ -39,5 +49,8 @@
     </table>
   </div>
   <script src="script.js"></script>
+  <div class="imagen">
+    <img src="DonDanielCarvajal.jpg">
+  </div>
 </body>
 </html>

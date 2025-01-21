@@ -1,0 +1,24 @@
+[
+    {
+      "nombre": "One Piece",
+      "autor": "Eiichiro Oda",
+      "capitulos": 1122,
+      "traducido": true,
+      "personajes": ["Luffy", "Zoro", "Nami"]
+    },
+    {
+      "nombre": "Dragon Ball",
+      "autor": "Akira Toriyama",
+      "capitulos": 600,
+      "traducido": true,
+      "personajes": ["Goku", "Vegeta", "Trunks"]
+    },
+    {
+      "nombre": "Dr Stone",
+      "autor": "Riichiro Inagaki",
+      "capitulos": 59,
+      "traducido": true,
+      "personajes": ["Senku", "Tsukasa", "Gen"]
+    }
+]
+  

@@ -1,5 +1,6 @@
 // Ruta del archivo JSON
 const jsonUrl = 'data.json';
+let jsonData = [];  // Declare the variable to store the fetched data
 
 // Función para cargar datos desde el JSON
 fetch(jsonUrl)
@@ -7,12 +8,11 @@ fetch(jsonUrl)
     if (!response.ok) {
       throw new Error('Error al cargar el archivo JSON');
     }
-    console.log('JSON cargado con éxito');
     return response.json();
   })
   .then(data => {
-    console.log('Datos obtenidos:', data); // Verifica si los datos se cargan correctamente
-    displayData(data);
+    jsonData = data;  // Guarda los datos cargados
+    displayData(jsonData);  // Muestra los datos
   })
   .catch(error => {
     console.error('Error:', error);
@@ -21,6 +21,7 @@ fetch(jsonUrl)
 // Función para mostrar los datos en la tabla
 function displayData(data) {
   const tableBody = document.getElementById('data-table-body');
+  tableBody.innerHTML = ''; // Limpiar tabla antes de agregar los datos
 
   data.forEach(item => {
     const row = document.createElement('tr');
@@ -29,9 +30,9 @@ function displayData(data) {
     nombreCell.textContent = item.nombre;
     row.appendChild(nombreCell);
 
-    const creacionCell = document.createElement('td');
-    creacionCell.textContent = item.creacion;
-    row.appendChild(creacionCell);
+    const fundacionCell = document.createElement('td');
+    fundacionCell.textContent = item.fundacion;
+    row.appendChild(fundacionCell);
 
     const europeoCell = document.createElement('td');
     europeoCell.textContent = item.europeo;
@@ -47,4 +48,17 @@ function displayData(data) {
 
     tableBody.appendChild(row);
   });
+}
+
+// Función para filtrar los datos según los valores en los inputs
+function filterData() {
+  const filterNombre = document.getElementById('nameFilter').value.toLowerCase();
+  
+
+  const filteredData = jsonData.filter(item => {
+    const nameMatch = item.nombre.toLowerCase().includes(filterNombre);
+    return nameMatch;
+  });
+
+  displayData(filteredData);  // Muestra los datos filtrados
 }

@@ -22,15 +22,22 @@
 </head>
 <body>
   <h1 style="text-align:center;">Datos desde JSON</h1>
+  
+  <!-- Filtros -->
+  <div style="text-align:center; margin-bottom: 20px;">
+    <input type="text" id="nameFilter" placeholder="Filtrar por nombre" oninput="filterData()">
+    
+  </div>
+
   <div id="data-container" style="text-align:center;">
     <table>
       <thead>
         <tr>
           <th>Nombre</th>
-          <th>Año de creacion</th>
-          <th>Europeo</th>
-          <th>Pais</th>
-          <th>Estadio</th>
+          <th>Autor</th>
+          <th>Capítulos</th>
+          <th>Traducido</th>
+          <th>Personajes</th>
         </tr>
       </thead>
       <tbody id="data-table-body">
@@ -38,6 +45,8 @@
       </tbody>
     </table>
   </div>
-  <script src="script.js"></script>
+
+  <script src="script2.js"></script>
 </body>
+
 </html>
