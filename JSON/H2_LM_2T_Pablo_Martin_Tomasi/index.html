@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar JSON</title>
+    <style>
+        table {
+          width: 50%;
+          border-collapse: collapse;
+          margin: 20px auto;
+        }
+        th, td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+        }
+        th {
+          background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Datos de los pedidos del año 2023</h1>
+    
+    <div id="data-container" style="text-align:center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id del cliente</th>
+                    <th>Numero del pedido</th>
+                    <th>Fecha de la compra</th>
+                    <th>Fecha de la entrega</th>
+                    <th>Total de la factura</th>
+                    <th>Nombre Producto</th>
+                    <th>Referencia Producto</th>
+                    <th>Precio</th>
+                    <th>Unidades</th>
+                </tr>
+            </thead>
+            <tbody id="data-table-body-pedidos">
+                <!-- Los datos se cargarán aquí -->
+            </tbody>
+        </table>
+    </div>
+    
+    <h1 style="text-align:center;">Datos de los pedidos del año 2024</h1>
+    
+    <div id="data-container" style="text-align:center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id del cliente</th>
+                    <th>Numero del pedido</th>
+                    <th>Fecha de la compra</th>
+                    <th>Fecha de la entrega</th>
+                    <th>Total de la factura</th>
+                    <th>Nombre Producto</th>
+                    <th>Referencia Producto</th>
+                    <th>Precio</th>
+                    <th>Unidades</th>
+                </tr>
+            </thead>
+            <tbody id="data-table-body-Pedidos">
+                <!-- Los datos se cargarán aquí -->
+            </tbody>
+        </table>
+    </div>
+    
+    <h1 style="text-align:center;">Datos los clientes</h1>
+
+    <div id="data-container" style="text-align:center;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id del cliente</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Telefono</th>
+                    <th>Direcion</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="data-table-body-clientes">
+                <!-- Los datos se cargarán aquí -->
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

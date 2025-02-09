@@ -1,0 +1,1460 @@
+{
+    "pedidos": {
+        "2023": {
+            "T1": [
+                {
+                    "numero_pedido": "2023T1-01",
+                    "fecha_compra": "2023-01-15",
+                    "fecha_entrega": "2023-01-18",
+                    "total_factura": 45.90,
+                    "cliente": {
+                        "nombre": "Carlos",
+                        "apellidos": "Fernández López",
+                        "telefono": 612345678,
+                        "direccion": {
+                            "calle": "Calle Falsa 123",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28001,
+                            "provincia": "Madrid"
+                        },
+                        "email": "carlos.fernandez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Collar para perro",
+                            "referencia": "COLL123",
+                            "precio": 15.90,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Juguete mordedor",
+                            "referencia": "JUG456",
+                            "precio": 10.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Comedero de acero",
+                            "referencia": "COM789",
+                            "precio": 10.00,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T1-02",
+                    "fecha_compra": "2023-01-20",
+                    "fecha_entrega": "2023-01-23",
+                    "total_factura": 28.40,
+                    "cliente": {
+                        "nombre": "María",
+                        "apellidos": "Sánchez López",
+                        "telefono": 645678901,
+                        "direccion": {
+                            "calle": "Plaza del Sol 22",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
+                        },
+                        "email": "maria.sanchez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Champú para perros",
+                            "referencia": "CHAMP007",
+                            "precio": 13.40,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Peine para gatos",
+                            "referencia": "PEINE008",
+                            "precio": 15.00,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T1-03",
+                    "fecha_compra": "2023-02-10",
+                    "fecha_entrega": "2023-02-13",
+                    "total_factura": 30.50,
+                    "cliente": {
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 8010,
+                            "provincia": "Barcelona"
+                        },
+                        "email": "laura.gomez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Arena para gatos 5kg",
+                            "referencia": "ARENA001",
+                            "precio": 12.50,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Rascador pequeño",
+                            "referencia": "RASC002",
+                            "precio": 18.00,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T1-04",
+                    "fecha_compra": "2023-02-28",
+                    "fecha_entrega": "2023-03-03",
+                    "total_factura": 12.90,
+                    "cliente": {
+                        "nombre": "Antonio",
+                        "apellidos": "Díaz Moreno",
+                        "telefono": 656789012,
+                        "direccion": {
+                            "calle": "Calle Ficticia 99",
+                            "ciudad": "Bilbao",
+                            "codigo_postal": 48001,
+                            "provincia": "Vizcaya"
+                        },
+                        "email": "antonio.diaz@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Snacks para perros",
+                            "referencia": "SNACK009",
+                            "precio": 12.90,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T1-05",
+                    "fecha_compra": "2023-03-05",
+                    "fecha_entrega": "2023-03-08",
+                    "total_factura": 60.75,
+                    "cliente": {
+                        "nombre": "Javier",
+                        "apellidos": "Martínez Pérez",
+                        "telefono": 634567890,
+                        "direccion": {
+                            "calle": "Calle Imaginaria 78",
+                            "ciudad": "Valencia",
+                            "codigo_postal": 46002,
+                            "provincia": "Valencia"
+                        },
+                        "email": "javier.martinez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Correa extensible",
+                            "referencia": "CORR003",
+                            "precio": 20.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Juguete con sonido",
+                            "referencia": "JUG004",
+                            "precio": 8.25,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Cama para perro",
+                            "referencia": "CAMA005",
+                            "precio": 24.25,
+                            "unidades": 1
+                        }
+                    ]
+                }
+            ],
+            "T2": [
+                {
+                    "numero_pedido": "2023T2-01",
+                    "fecha_compra": "2023-04-05",
+                    "fecha_entrega": "2023-04-08",
+                    "total_factura": 75.50,
+                    "cliente": {
+                        "nombre": "Elena",
+                        "apellidos": "Rodríguez Martín",
+                        "telefono": 667890123,
+                        "direccion": {
+                            "calle": "Avenida Principal 23",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
+                        },
+                        "email": "elena.rodriguez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Transportín para gatos",
+                            "referencia": "TRANS001",
+                            "precio": 35.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Collar antipulgas",
+                            "referencia": "COLL002",
+                            "precio": 20.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Juguete interactivo",
+                            "referencia": "JUG003",
+                            "precio": 10.50,
+                            "unidades": 2
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T2-02",
+                    "fecha_compra": "2023-04-20",
+                    "fecha_entrega": "2023-04-23",
+                    "total_factura": 40.00,
+                    "cliente": {
+                        "nombre": "Manuel",
+                        "apellidos": "García López",
+                        "telefono": 678901234,
+                        "direccion": {
+                            "calle": "Calle Inventada 34",
+                            "ciudad": "Málaga",
+                            "codigo_postal": 29015,
+                            "provincia": "Málaga"
+                        },
+                        "email": "manuel.garcia@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Rascador grande",
+                            "referencia": "RASC004",
+                            "precio": 40.00,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T2-03",
+                    "fecha_compra": "2023-05-15",
+                    "fecha_entrega": "2023-05-18",
+                    "total_factura": 55.75,
+                    "cliente": {
+                        "nombre": "Sofía",
+                        "apellidos": "Pérez Sánchez",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Plaza Central 12",
+                            "ciudad": "Zaragoza",
+                            "codigo_postal": 50001,
+                            "provincia": "Zaragoza"
+                        },
+                        "email": "sofia.perez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Cama para gatos",
+                            "referencia": "CAMA005",
+                            "precio": 30.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Pelota de goma",
+                            "referencia": "PELO006",
+                            "precio": 12.50,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Snacks saludables",
+                            "referencia": "SNACK007",
+                            "precio": 10.75,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T2-04",
+                    "fecha_compra": "2023-06-15",
+                    "fecha_entrega": "2023-06-18",
+                    "total_factura": 41.49,
+                    "cliente": {
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
+                        },
+                        "email": "anacleto.garcia@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Cama para perro ortopédica",
+                            "referencia": "CAM-001",
+                            "precio": 25.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Alimento premium para perro 10kg",
+                            "referencia": "ALI-003",
+                            "precio": 15.50,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T2-05",
+                    "fecha_compra": "2023-06-24",
+                    "fecha_entrega": "2023-06-27",
+                    "total_factura": 20.00,
+                    "cliente": {
+                        "nombre": "Fernando",
+                        "apellidos": "Aragón de los 4 Vientos",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Plaza Alejada",
+                            "ciudad": "Valencia",
+                            "codigo_postal": 10500,
+                            "provincia": "Valencia"
+                        },
+                        "email": "fernando.aragon@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Rascador para gatos de varios niveles",
+                            "referencia": "RAS-002",
+                            "precio": 20.00,
+                            "unidades": 1
+                        }
+                    ]
+                }
+            ],
+            "T3":[
+                {
+                    "numero_pedido": "2023T3-01",
+                    "fecha_compra": "2023-07-10",
+                    "fecha_entrega": "2023-07-15",
+                    "total_factura": 89.99,
+                    "cliente": {
+                        "nombre": "Carlos",
+                        "apellidos": "Fernández López",
+                        "telefono": 654789123,
+                        "direccion": {
+                            "calle": "Avenida del Sol, 45",
+                            "ciudad": "Toledo",
+                            "codigo_postal": 45001,
+                            "provincia": "Castilla-La Mancha"
+                        },
+                        "email": "carlos.fernandez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Collar para perro ajustable",
+                            "referencia": "COL123",
+                            "precio": 19.99,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Comida seca para gatos 5kg",
+                            "referencia": "FOOD456",
+                            "precio": 39.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Juguete mordedor para perro",
+                            "referencia": "TOY789",
+                            "precio": 9.99,
+                            "unidades": 3
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T3-02",
+                    "fecha_compra":"2023-07-25",
+                    "fecha_entrega":"2023-07-28",
+                    "total_factura": 136.00,
+                    "cliente": {
+                        "nombre": "Ana",
+                        "apellidos": "Martínez García",
+                        "telefono": 678345678,
+                        "direccion": {
+                            "calle": "Calle Mayor, 23",
+                            "ciudad": "Santander",
+                            "codigo_postal": 39002,
+                            "provincia": "Cantabria"
+                        },
+                        "email": "ana.martinez@mail.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Rascador para gatos",
+                            "referencia": "SCRT001",
+                            "precio": 45.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Arena para gatos 10kg",
+                            "referencia": "SANDBOX002",
+                            "precio": 15.50,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Transportín para perros pequeños",
+                            "referencia": "CARRIER003",
+                            "precio": 60.00,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T3-03",
+                    "fecha_compra":"2023-07-30",
+                    "fecha_entrega":"2023-08-01",
+                    "total_factura": 75.75,
+                    "cliente":{
+                        "nombre":"David",
+                        "apellidos":"Ruiz Sánchez",
+                        "telefono": 612345678,
+                        "direccion":{
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
+                        },
+                        "email":"david.ruiz@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Caseta para perro tamaño mediano",
+                            "referencia": "HOUSE004",
+                            "precio": 55.75,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Snacks para perros (pack 3)",
+                            "referencia": "SNACKS005",
+                            "precio": 10.00,
+                            "unidades": 2
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T3-04",
+                    "fecha_compra":"2023-08-20",
+                    "fecha_entrega":"2023-08-25",
+                    "total_factura": 77.00,
+                    "cliente":{
+                        "nombre":"Luis",
+                        "apellidos":"Henrique Faris",
+                        "telefono": 601582026,
+                        "direccion":{
+                            "calle": "Calle Mediana 89",
+                            "ciudad": "Girona",
+                            "codigo_postal": 17001,
+                            "provincia": "Girona"
+                        },
+                        "email":"luis.henrique@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Alimento premium para perro 10kg",
+                            "referencia": "ALI-003",
+                            "precio": 38.50,
+                            "unidades": 2
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T3-05",
+                    "fecha_compra":"2023-09-04",
+                    "fecha_entrega":"2023-09-07",
+                    "total_factura": 65.87,
+                    "cliente":{
+                        "nombre":"Juan",
+                        "apellidos":"Manolo Fernández",
+                        "telefono": 811582326,
+                        "direccion":{
+                            "calle": "Avenida Verdadera 45",
+                            "ciudad": "Alicante",
+                            "codigo_postal": 33012,
+                            "provincia": "Alicante"
+                        },
+                        "email":"juan.manolo@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Juguete interactivo para gatos con luces",
+                            "referencia": "JUG-004",
+                            "precio": 7.99,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Bebedero automático para mascotas",
+                            "referencia": "BEB-006",
+                            "precio": 19.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Transportadora para gatos y perros pequeños",
+                            "referencia": "TRA-007",
+                            "precio": 29.90,
+                            "unidades": 1
+                        }
+                    ]
+                }
+            ],
+            "T4":[
+                {
+                    "numero_pedido":"2023T4-01",
+                    "fecha_compra":"2023-10-15",
+                    "fecha_entrega":"2023-10-19",
+                    "total_factura": 121.48,
+                    "cliente":{
+                        "nombre":"Laura",
+                        "apellidos":"González Pérez",
+                        "telefono": 634567890,
+                        "direccion":{
+                            "calle": "Calle de los Animales 23",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28015,
+                            "provincia": "Madrid"
+                        },
+                        "email":"laura.gonzalez@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Bebedero automático para gatos",
+                            "referencia": "BEB-001",
+                            "precio": 19.99,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Juguete para perro con cuerda",
+                            "referencia": "JUG-002",
+                            "precio": 12.50,
+                            "unidades": 3
+                        },
+                        {
+                            "nombre_producto": "Transportadora para mascotas pequeña",
+                            "referencia": "TRA-003",
+                            "precio": 49.99,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T4-02",
+                    "fecha_compra":"2023-10-23",
+                    "fecha_entrega":"2023-10-28",
+                    "total_factura": 97.47,
+                    "cliente":{
+                        "nombre":"Carlos",
+                        "apellidos":"Martínez López",
+                        "telefono": 612345678,
+                        "direccion":{
+                            "calle": "Avenida de los Robos 15",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 38020,
+                            "provincia": "Barcelona"
+                        },
+                        "email":"carlos.martinez@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Collar antirruido para perros",
+                            "referencia": "COL-001",
+                            "precio": 19.99,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Cinta de correr para gatos",
+                            "referencia": "CIN-002",
+                            "precio": 29.99,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T4-03",
+                    "fecha_compra":"2023-11-15",
+                    "fecha_entrega":"2023-11-18",
+                    "total_factura": 55.98,
+                    "cliente":{
+                        "nombre":"Ana",
+                        "apellidos":"Pérez Sánchez",
+                        "telefono": 657123456,
+                        "direccion":{
+                            "calle": "Calle de Mar 42",
+                            "ciudad": "Murcia",
+                            "codigo_postal": 30001,
+                            "provincia": "Murcia"
+                        },
+                        "email":"ana.perez@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Pelota para perro",
+                            "referencia": "PEL-001",
+                            "precio": 9.99,
+                            "unidades": 3
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2023T4-04",
+                    "fecha_compra": "2023-11-26",
+                    "fecha_entrega": "2023-11-29",
+                    "total_factura": 142.47,
+                    "cliente": {
+                        "nombre": "Pedro",
+                        "apellidos": "García López",
+                        "telefono": 612345678,
+                        "direccion": {
+                            "calle": "Calle del Sol 10",
+                            "ciudad": "Valencia",
+                            "codigo_postal": 46001,
+                            "provincia": "Valencia"
+                        },
+                        "email": "pedro.garcia@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Juguete para gato con pluma",
+                            "referencia": "JUG-001",
+                            "precio": 8.99,
+                            "unidades": 4
+                        },
+                        {
+                            "nombre_producto": "Arenero para gato",
+                            "referencia": "ARE-002",
+                            "precio": 23.50,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Cama para gato de felpa",
+                            "referencia": "CAM-003",
+                            "precio": 15.99,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Bolsa de comida para perros 5kg",
+                            "referencia": "ALI-004",
+                            "precio": 34.99,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"2023T4-05",
+                    "fecha_compra":"2023-12-15",
+                    "fecha_entrega":"2023-12-20",
+                    "total_factura": 85.97,
+                    "cliente":{
+                        "nombre":"Lucía",
+                        "apellidos":"Rodríguez Martín",
+                        "telefono": 634567890,
+                        "direccion":{
+                            "calle": "Avenida Zaragoza 55",
+                            "ciudad": "Zaragoza",
+                            "codigo_postal": 50001,
+                            "provincia": "Zaragoza"
+                        },
+                        "email":"lucia.rodriguez@ejemplo.com"
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "Transportadora para perros medianos",
+                            "referencia": "TRA-001",
+                            "precio": 44.50,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Collar antipulgas para gatos",
+                            "referencia": "COL-002",
+                            "precio": 11.99,
+                            "unidades": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        "2024":{
+            "T1":[
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                }
+            ],
+            "T2":[
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                }
+            ],
+            "T3":[
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                }
+            ],
+            "T4":[
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido":"",
+                    "fecha_compra":"",
+                    "fecha_entrega":"",
+                    "total_factura":,
+                    "cliente":{
+                        "nombre":"",
+                        "apellidos":"",
+                        "telefono":,
+                        "direccion":{
+                            "calle": "",
+                            "ciudad": "",
+                            "codigo_postal": ,
+                            "provincia": ""
+                        },
+                        "email":""
+                    },
+                    "productos":[
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        },
+                        {
+                            "nombre_producto": "",
+                            "referencia": "",
+                            "precio": ,
+                            "unidades": ,
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
