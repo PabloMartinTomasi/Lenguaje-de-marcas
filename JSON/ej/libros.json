@@ -1,0 +1,19 @@
+{
+    "libros": [
+        {
+            "titulo": "El Quijote",
+            "autor": "Miguel de Cervantes",
+            "precio": 19.99
+        },
+        {
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "precio": 15.50
+        },
+        {
+            "titulo": "Orgullo y Prejuicio",
+            "autor": "Jane Austen",
+            "precio": 12.75
+        }
+    ]
+}

@@ -3,90 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mostrar JSON</title>
-    <style>
-        table {
-          width: 50%;
-          border-collapse: collapse;
-          margin: 20px auto;
-        }
-        th, td {
-          border: 1px solid #ddd;
-          padding: 8px;
-          text-align: left;
-        }
-        th {
-          background-color: #f4f4f4;
-        }
-    </style>
+    <!--Enlace a libreria css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Enlace a hoja de estilos-->
+    <link rel="stylesheet" href="estilo/#.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Enlace a boostrap online-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZwv-model-vue1T" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Tienda de macotas</title>
 </head>
 <body>
-    <h1 style="text-align:center;">Datos de los pedidos del año 2023</h1>
-    
-    <div id="data-container" style="text-align:center;">
+    <div class="container">
+        <h1>Listado de los pedidos realizados</h1>
         <table>
             <thead>
-                <tr>
-                    <th>Id del cliente</th>
-                    <th>Numero del pedido</th>
-                    <th>Fecha de la compra</th>
-                    <th>Fecha de la entrega</th>
-                    <th>Total de la factura</th>
-                    <th>Nombre Producto</th>
-                    <th>Referencia Producto</th>
-                    <th>Precio</th>
-                    <th>Unidades</th>
-                </tr>
+                <th>Numero pedido</th>
+                <th>Fecha de la compra</th>
+                <th>Fecha de la entrega</th>
+                <th>Total de la factura</th>
             </thead>
             <tbody id="data-table-body-pedidos">
-                <!-- Los datos se cargarán aquí -->
             </tbody>
         </table>
     </div>
-    
-    <h1 style="text-align:center;">Datos de los pedidos del año 2024</h1>
-    
-    <div id="data-container" style="text-align:center;">
-        <table>
-            <thead>
-                <tr>
-                    <th>Id del cliente</th>
-                    <th>Numero del pedido</th>
-                    <th>Fecha de la compra</th>
-                    <th>Fecha de la entrega</th>
-                    <th>Total de la factura</th>
-                    <th>Nombre Producto</th>
-                    <th>Referencia Producto</th>
-                    <th>Precio</th>
-                    <th>Unidades</th>
-                </tr>
-            </thead>
-            <tbody id="data-table-body-Pedidos">
-                <!-- Los datos se cargarán aquí -->
-            </tbody>
-        </table>
-    </div>
-    
-    <h1 style="text-align:center;">Datos los clientes</h1>
 
-    <div id="data-container" style="text-align:center;">
-        <table>
-            <thead>
-                <tr>
-                    <th>Id del cliente</th>
-                    <th>Nombre</th>
-                    <th>Apellidos</th>
-                    <th>Telefono</th>
-                    <th>Direcion</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody id="data-table-body-clientes">
-                <!-- Los datos se cargarán aquí -->
-            </tbody>
-        </table>
+    <div>
+        <h1>Información sobre cada cliente</h1>
     </div>
-    
-    <script src="script.js"></script>
+
+    <div>
+        <h1>Factura de un cliente</h1>
+    </div>
+
+    <div>
+        <h1>Productos vendidos en el primer trimestre de 2023 y el ultimo trimestre de 2024</h1>
+    </div>
 </body>
 </html>

@@ -1,0 +1,15 @@
+<script>
+    async function buscarLibroPorTitulo(tituloBuscado) {
+        const response = await fetch('libros.json');
+        const data = await response.json();
+        // Buscar un libro con el título dado
+        const libroEncontrado = data.libros.find(libro => libro.titulo === tituloBuscado);
+        if (libroEncontrado) {
+            console.log('Libro encontrado:', libroEncontrado);
+        } else {
+            console.log('No se encontró un libro con ese título');
+        }
+    }
+    // Ejemplo de uso
+    buscarLibroPorTitulo("1984");
+</script>

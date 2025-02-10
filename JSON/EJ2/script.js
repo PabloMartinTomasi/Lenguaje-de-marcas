@@ -62,3 +62,53 @@ function filterData() {
 
   displayData(filteredData);  // Muestra los datos filtrados
 }
+
+function filterNumber() {
+  const filterFundacion = document.getElementById('numberFilter').value;
+  
+
+  if (filterFundacion !== '') {
+    const filteredNumber = jsonData.filter(item => {
+      return item.fundacion.toString().includes(filterFundacion);
+    });
+    displayData(filteredNumber);  // Muestra los datos filtrados
+  } else {
+    displayData(jsonData);  // Si el campo está vacío, mostrar todos los datos
+  }
+}
+
+function filterEuropeo() {
+  const filterEuropeo = document.getElementById('paisEuropeo').value.toLowerCase();
+  
+
+  const filteredEuropeo = jsonData.filter(item => {
+    const nameMatch = item.europeo.toLowerCase().includes(filterEuropeo);
+    return nameMatch;
+  });
+
+  displayData(filteredEuropeo);  // Muestra los datos filtrados
+}
+
+function filterPais() {
+  const filterPais = document.getElementById('paisFilter').value.toLowerCase();
+  
+
+  const filteredPais = jsonData.filter(item => {
+    const nameMatch = item.pais.toLowerCase().includes(filterPais);
+    return nameMatch;
+  });
+
+  displayData(filteredPais);  // Muestra los datos filtrados
+}
+
+function filterEstadio() {
+  const filterEstadio = document.getElementById('estadioFilter').value.toLowerCase();
+  
+
+  const filteredEstadio = jsonData.filter(item => {
+    const nameMatch = item.estadio.toLowerCase().includes(filterEstadio);
+    return nameMatch;
+  });
+
+  displayData(filteredEstadio);  // Muestra los datos filtrados
+}
