@@ -704,6 +704,44 @@
                 },
                 {
                     "numero_pedido": "2024T1-02",
+                    "fecha_compra": "2024-01-25",
+                    "fecha_entrega": "2024-01-30",
+                    "total_factura": 76.45,
+                    "cliente": {
+                        "nombre": "Elena",
+                        "apellidos": "Rodríguez Martín",
+                        "telefono": 667890123,
+                        "direccion": {
+                            "calle": "Avenida Principal 23",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
+                        },
+                        "email": "elena.rodriguez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Pecera de 20 litros",
+                            "referencia": "PEC-9003",
+                            "precio": 45.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Filtro para pecera",
+                            "referencia": "FTP-8002",
+                            "precio": 18.50,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Decoración para pecera",
+                            "referencia": "DPP-6004",
+                            "precio": 12.95,
+                            "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2024T1-03",
                     "fecha_compra": "2024-02-05",
                     "fecha_entrega": "2024-02-10",
                     "total_factura": 98.75,
@@ -747,7 +785,7 @@
                     ]
                 },
                 {
-                    "numero_pedido": "2024T1-03",
+                    "numero_pedido": "2024T1-04",
                     "fecha_compra": "2024-03-01",
                     "fecha_entrega": "2024-03-05",
                     "total_factura": 32.99,
@@ -768,44 +806,6 @@
                             "nombre_producto": "Jaula para hámster",
                             "referencia": "JHM-7001",
                             "precio": 32.99,
-                            "unidades": 1
-                        }
-                    ]
-                },
-                {
-                    "numero_pedido": "2024T1-04",
-                    "fecha_compra": "2024-01-25",
-                    "fecha_entrega": "2024-01-30",
-                    "total_factura": 76.45,
-                    "cliente": {
-                        "nombre": "Elena",
-                        "apellidos": "Rodríguez Martín",
-                        "telefono": 667890123,
-                        "direccion": {
-                            "calle": "Avenida Principal 23",
-                            "ciudad": "Sevilla",
-                            "codigo_postal": 41001,
-                            "provincia": "Sevilla"
-                        },
-                        "email": "elena.rodriguez@ejemplo.com"
-                    },
-                    "productos": [
-                        {
-                            "nombre_producto": "Pecera de 20 litros",
-                            "referencia": "PEC-9003",
-                            "precio": 45.00,
-                            "unidades": 1
-                        },
-                        {
-                            "nombre_producto": "Filtro para pecera",
-                            "referencia": "FTP-8002",
-                            "precio": 18.50,
-                            "unidades": 1
-                        },
-                        {
-                            "nombre_producto": "Decoración para pecera",
-                            "referencia": "DPP-6004",
-                            "precio": 12.95,
                             "unidades": 1
                         }
                     ]
@@ -854,7 +854,7 @@
                     "numero_pedido": "2024T2-01",
                     "fecha_compra": "2024-04-10",
                     "fecha_entrega": "2024-04-15",
-                    "total_factura": 101.00,
+                    "total_factura": 93.40,
                     "cliente": {
                         "nombre": "Elena",
                         "apellidos": "Rodríguez Martín",
@@ -876,8 +876,8 @@
                         },
                         {
                             "nombre_producto": "Champú para perros 500ml",
-                            "referencia": "CHP-2201",
-                            "precio": 10.50,
+                            "referencia": "CHAMP007",
+                            "precio": 13.40,
                             "unidades": 2
                         },
                         {
@@ -1090,44 +1090,6 @@
                 },
                 {
                     "numero_pedido": "2024T3-03",
-                    "fecha_compra": "2024-09-10",
-                    "fecha_entrega": "2024-09-15",
-                    "total_factura": 160.30,
-                    "cliente": {
-                        "nombre": "Laura",
-                        "apellidos": "Gómez Ruiz",
-                        "telefono": 623456789,
-                        "direccion": {
-                            "calle": "Avenida Inventada 45",
-                            "ciudad": "Barcelona",
-                            "codigo_postal": 87010,
-                            "provincia": "Barcelona"
-                        },
-                        "email": "laura.gomez@ejemplo.com"
-                    },
-                    "productos": [
-                        {
-                            "nombre_producto": "Jaula para Conejo",
-                            "referencia": "JC001",
-                            "precio": 45.00,
-                            "unidades": 1
-                        },
-                        {
-                            "nombre_producto": "Pañales para Gatos",
-                            "referencia": "PG002",
-                            "precio": 14.50,
-                            "unidades": 3
-                        },
-                        {
-                            "nombre_producto": "Alimento para Conejos 1kg",
-                            "referencia": "AC01KG",
-                            "precio": 10.00,
-                            "unidades": 2
-                        }
-                    ]
-                },
-                {
-                    "numero_pedido": "2024T3-04",
                     "fecha_compra": "2024-08-15",
                     "fecha_entrega": "2024-08-20",
                     "total_factura": 98.75,
@@ -1167,6 +1129,44 @@
                             "referencia": "SP001",
                             "precio": 25.00,
                             "unidades": 1
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2024T3-04",
+                    "fecha_compra": "2024-09-10",
+                    "fecha_entrega": "2024-09-15",
+                    "total_factura": 160.30,
+                    "cliente": {
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
+                        },
+                        "email": "laura.gomez@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Jaula para Conejo",
+                            "referencia": "JC001",
+                            "precio": 45.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Pañales para Gatos",
+                            "referencia": "PG002",
+                            "precio": 14.50,
+                            "unidades": 3
+                        },
+                        {
+                            "nombre_producto": "Alimento para Conejos 1kg",
+                            "referencia": "AC01KG",
+                            "precio": 10.00,
+                            "unidades": 2
                         }
                     ]
                 },
@@ -1250,6 +1250,32 @@
                 },
                 {
                     "numero_pedido": "2024T4-02",
+                    "fecha_compra": "2024-10-15",
+                    "fecha_entrega": "2024-10-20",
+                    "total_factura": 31.80,
+                    "cliente": {
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
+                        "telefono": 612345678,
+                        "direccion": {
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
+                        },
+                        "email": "david.ruiz@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Collar para Perro",
+                            "referencia": "COLL123",
+                            "precio": 15.90,
+                            "unidades": 2
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2024T4-03",
                     "fecha_compra": "2024-11-05",
                     "fecha_entrega": "2024-11-10",
                     "total_factura": 150.00,
@@ -1293,65 +1319,7 @@
                     ]
                 },
                 {
-                    "numero_pedido": "2024T4-03",
-                    "fecha_compra": "2024-12-10",
-                    "fecha_entrega": "2024-12-15",
-                    "total_factura": 112.00,
-                    "cliente": {
-                        "nombre": "Anacleto",
-                        "apellidos": "García López",
-                        "telefono": 689012345,
-                        "direccion": {
-                            "calle": "Calle Real 12",
-                            "ciudad": "Léganes",
-                            "codigo_postal": 52020,
-                            "provincia": "Madrid"
-                        },
-                        "email": "anacleto.garcia@ejemplo.com"
-                    },
-                    "productos": [
-                        {
-                            "nombre_producto": "Comida para Conejos 1kg",
-                            "referencia": "CC01KG001",
-                            "precio": 10.00,
-                            "unidades": 3
-                        },
-                        {
-                            "nombre_producto": "Jaula para Conejo",
-                            "referencia": "JC002",
-                            "precio": 40.00,
-                            "unidades": 1
-                        }
-                    ]
-                },
-                {
                     "numero_pedido": "2024T4-04",
-                    "fecha_compra": "2024-10-15",
-                    "fecha_entrega": "2024-10-20",
-                    "total_factura": 75.00,
-                    "cliente": {
-                        "nombre": "David",
-                        "apellidos": "Ruiz Sánchez",
-                        "telefono": 612345678,
-                        "direccion": {
-                            "calle": "Paseo de la Estación, 88",
-                            "ciudad": "Valladolid",
-                            "codigo_postal": 47003,
-                            "provincia": "Castilla y León"
-                        },
-                        "email": "david.ruiz@ejemplo.com"
-                    },
-                    "productos": [
-                        {
-                            "nombre_producto": "Collar para Perro",
-                            "referencia": "CP001",
-                            "precio": 12.00,
-                            "unidades": 2
-                        }
-                    ]
-                },
-                {
-                    "numero_pedido": "2024T4-05",
                     "fecha_compra": "2024-11-20",
                     "fecha_entrega": "2024-11-25",
                     "total_factura": 130.75,
@@ -1385,6 +1353,38 @@
                             "referencia": "JG002",
                             "precio": 8.00,
                             "unidades": 3
+                        }
+                    ]
+                },
+                {
+                    "numero_pedido": "2024T4-05",
+                    "fecha_compra": "2024-12-10",
+                    "fecha_entrega": "2024-12-15",
+                    "total_factura": 112.00,
+                    "cliente": {
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
+                        },
+                        "email": "anacleto.garcia@ejemplo.com"
+                    },
+                    "productos": [
+                        {
+                            "nombre_producto": "Comida para Conejos 1kg",
+                            "referencia": "CC01KG001",
+                            "precio": 10.00,
+                            "unidades": 3
+                        },
+                        {
+                            "nombre_producto": "Jaula para Conejo",
+                            "referencia": "JC002",
+                            "precio": 40.00,
+                            "unidades": 1
                         }
                     ]
                 }

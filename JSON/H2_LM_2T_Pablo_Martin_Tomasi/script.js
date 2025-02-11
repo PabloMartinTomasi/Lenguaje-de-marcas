@@ -95,20 +95,22 @@ function mostrarFactura(data) {
     Object.keys(data.pedidos).forEach(year => {
         Object.keys(data.pedidos[year]).forEach(trimestre => {
             data.pedidos[year][trimestre].forEach(pedido => {
-                pedido.productos.forEach(prod => {
-                    const fila = document.createElement("tr");
+                const fila = document.createElement("tr");
 
-                    fila.innerHTML = `
-                        <td>${pedido.cliente.nombre} ${pedido.cliente.apellidos}</td>
-                        <td>${pedido.numero_pedido}</td>
-                        <td>${formatearFecha(pedido.fecha_compra)}</td>
-                        <td>${prod.nombre_producto}</td>
-                        <td>${prod.unidades}</td>
-                        <td>${(prod.unidades * prod.precio).toFixed(2)} €</td>
-                    `;
+                // Agrupar los productos en una celda con unidades y precio unitario
+                let productosHTML = pedido.productos.map(prod => 
+                    `${prod.nombre_producto} (x${prod.unidades}) - ${prod.precio.toFixed(2)} €`
+                ).join("<br>");
 
-                    tablaFactura.appendChild(fila);
-                });
+                fila.innerHTML = `
+                    <td>${pedido.cliente.nombre} ${pedido.cliente.apellidos}</td>
+                    <td>${pedido.numero_pedido}</td>
+                    <td>${formatearFecha(pedido.fecha_compra)}</td>
+                    <td>${productosHTML}</td>
+                    <td>${pedido.total_factura.toFixed(2)} €</td>
+                `;
+
+                tablaFactura.appendChild(fila);
             });
         });
     });

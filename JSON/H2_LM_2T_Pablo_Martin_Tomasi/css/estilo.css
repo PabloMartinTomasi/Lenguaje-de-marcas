@@ -1,6 +1,7 @@
 table{
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
 }
 
 .centrar {
@@ -9,8 +10,48 @@ table{
 
 h1{
     text-align: center;
+    font-family:'Times New Roman', Times, serif
 }
 
-.table-bordered{
-    border: 3px solid #007bff;
+
+
+#tabla-pedidos {
+    border: 2px solid #535556;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tabla-pedidos thead{
+    border: 2px solid #535556;
+}
+
+
+
+#tabla-clientes {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#tabla-factura {
+    border: 2px solid #691084;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tabla-factura thead{
+    border: 2px solid #691084;
+}
+
+
+#tabla-productos2023 {
+    border: 2px solid #ffc107;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tabla-productos2023 thead{
+    border: 2px solid #ffc107;
+}
+
+
+#tabla-productos2024 {
+    border: 2px solid #dc3545;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tabla-productos2024 thead{
+    border: 2px solid #dc3545;
 }

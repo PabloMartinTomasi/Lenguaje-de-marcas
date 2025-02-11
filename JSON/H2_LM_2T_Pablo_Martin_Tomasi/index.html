@@ -28,7 +28,7 @@
 <body>
     <div class="container">
         <div class="centrar">
-            <h1>Pedidos</h1>
+            <h1 class="pedido">Pedidos</h1>
             <table id="tabla-pedidos" class="table table-striped">
                 <thead class="table-dark">
                     <tr>
@@ -43,9 +43,9 @@
                 </tbody>
             </table>
             <br>
-            <h1>Clientes</h1>
-            <table id="tabla-clientes" class="table table-bordered table-hover">
-                <thead class="table">
+            <h1 class="clientes">Clientes</h1>
+            <table id="tabla-clientes" class="table table-striped table-dark">
+                <thead class="table-dark">
                     <tr>
                         <th>Nombre</th>
                         <th>Apellidos</th>
@@ -59,15 +59,14 @@
                 </tbody>
             </table>
             <br>
-            <h1>Factura</h1>
+            <h1 class="factura">Factura</h1>
             <table id="tabla-factura" class="table table-striped">
-                <thead class="table-dark">
+                <thead class="table">
                     <tr>
                         <th>Nombre del cliente</th>
                         <th>Numero del pedido</th>
                         <th>Fecha de Compra</th>
                         <th>Producto</th>
-                        <th>Unidades</th>
                         <th>Total</th>
                     </tr>
                 </thead>
@@ -75,9 +74,9 @@
                 </tbody>
             </table>
             <br>
-            <h1 style="text-align:center;">Productos vendidos en el primer trimestre de 2023</h1>
-            <table id="tabla-productos2023" style="text-align:center;" class="table table-striped">
-                <thead class="table-dark">
+            <h1 class="primertrimestre">Productos vendidos en el primer trimestre de 2023</h1>
+            <table id="tabla-productos2023" class="table-bordered">
+                <thead>
                     <tr>
                         <th>Nombre del producto</th>
                         <th>Referencia</th>
@@ -89,9 +88,9 @@
                 </tbody>
             </table>
             <br>
-            <h1>Productos vendidos en el utimo trimestre de 2024</h1>
-            <table id="tabla-productos2024" class="table table-striped">
-                <thead class="table-dark">
+            <h1 class="ultimotrimestre">Productos vendidos en el utimo trimestre de 2024</h1>
+            <table id="tabla-productos2024" class="table-bordered">
+                <thead>
                     <tr>
                         <th>Nombre del producto</th>
                         <th>Referencia</th>
