@@ -136,16 +136,16 @@
                     "fecha_entrega": "2023-03-08",
                     "total_factura": 60.75,
                     "cliente": {
-                        "nombre": "Javier",
-                        "apellidos": "Martínez Pérez",
-                        "telefono": 634567890,
+                        "nombre": "Carlos",
+                        "apellidos": "Fernández López",
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Calle Imaginaria 78",
-                            "ciudad": "Valencia",
-                            "codigo_postal": 46002,
-                            "provincia": "Valencia"
+                            "calle": "Calle Falsa 123",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28001,
+                            "provincia": "Madrid"
                         },
-                        "email": "javier.martinez@ejemplo.com"
+                        "email": "carlos.fernandez@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -238,32 +238,20 @@
                     "numero_pedido": "2023T2-03",
                     "fecha_compra": "2023-05-15",
                     "fecha_entrega": "2023-05-18",
-                    "total_factura": 55.75,
+                    "total_factura": 10.75,
                     "cliente": {
-                        "nombre": "Sofía",
-                        "apellidos": "Pérez Sánchez",
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
                         "telefono": 689012345,
                         "direccion": {
-                            "calle": "Plaza Central 12",
-                            "ciudad": "Zaragoza",
-                            "codigo_postal": 50001,
-                            "provincia": "Zaragoza"
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
                         },
-                        "email": "sofia.perez@ejemplo.com"
+                        "email": "anacleto.garcia@ejemplo.com"
                     },
                     "productos": [
-                        {
-                            "nombre_producto": "Cama para gatos",
-                            "referencia": "CAMA005",
-                            "precio": 30.00,
-                            "unidades": 1
-                        },
-                        {
-                            "nombre_producto": "Pelota de goma",
-                            "referencia": "PELO006",
-                            "precio": 12.50,
-                            "unidades": 2
-                        },
                         {
                             "nombre_producto": "Snacks saludables",
                             "referencia": "SNACK007",
@@ -310,16 +298,16 @@
                     "fecha_entrega": "2023-06-27",
                     "total_factura": 20.00,
                     "cliente": {
-                        "nombre": "Fernando",
-                        "apellidos": "Aragón de los 4 Vientos",
-                        "telefono": 689012345,
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Plaza Alejada",
-                            "ciudad": "Valencia",
-                            "codigo_postal": 10500,
-                            "provincia": "Valencia"
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
                         },
-                        "email": "fernando.aragon@ejemplo.com"
+                        "email": "david.ruiz@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -331,7 +319,7 @@
                     ]
                 }
             ],
-            "T3":[
+            "T3": [
                 {
                     "numero_pedido": "2023T3-01",
                     "fecha_compra": "2023-07-10",
@@ -340,12 +328,12 @@
                     "cliente": {
                         "nombre": "Carlos",
                         "apellidos": "Fernández López",
-                        "telefono": 654789123,
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Avenida del Sol, 45",
-                            "ciudad": "Toledo",
-                            "codigo_postal": 45001,
-                            "provincia": "Castilla-La Mancha"
+                            "calle": "Calle Falsa 123",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28001,
+                            "provincia": "Madrid"
                         },
                         "email": "carlos.fernandez@ejemplo.com"
                     },
@@ -371,21 +359,21 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T3-02",
-                    "fecha_compra":"2023-07-25",
-                    "fecha_entrega":"2023-07-28",
+                    "numero_pedido": "2023T3-02",
+                    "fecha_compra": "2023-07-25",
+                    "fecha_entrega": "2023-07-28",
                     "total_factura": 136.00,
                     "cliente": {
-                        "nombre": "Ana",
-                        "apellidos": "Martínez García",
-                        "telefono": 678345678,
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
                         "direccion": {
-                            "calle": "Calle Mayor, 23",
-                            "ciudad": "Santander",
-                            "codigo_postal": 39002,
-                            "provincia": "Cantabria"
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
                         },
-                        "email": "ana.martinez@mail.com"
+                        "email": "laura.gomez@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -409,23 +397,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T3-03",
-                    "fecha_compra":"2023-07-30",
-                    "fecha_entrega":"2023-08-01",
+                    "numero_pedido": "2023T3-03",
+                    "fecha_compra": "2023-07-30",
+                    "fecha_entrega": "2023-08-01",
                     "total_factura": 75.75,
-                    "cliente":{
-                        "nombre":"David",
-                        "apellidos":"Ruiz Sánchez",
+                    "cliente": {
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
                         "telefono": 612345678,
-                        "direccion":{
+                        "direccion": {
                             "calle": "Paseo de la Estación, 88",
                             "ciudad": "Valladolid",
                             "codigo_postal": 47003,
                             "provincia": "Castilla y León"
                         },
-                        "email":"david.ruiz@ejemplo.com"
+                        "email": "david.ruiz@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Caseta para perro tamaño mediano",
                             "referencia": "HOUSE004",
@@ -441,23 +429,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T3-04",
-                    "fecha_compra":"2023-08-20",
-                    "fecha_entrega":"2023-08-25",
+                    "numero_pedido": "2023T3-04",
+                    "fecha_compra": "2023-08-20",
+                    "fecha_entrega": "2023-08-25",
                     "total_factura": 77.00,
-                    "cliente":{
-                        "nombre":"Luis",
-                        "apellidos":"Henrique Faris",
-                        "telefono": 601582026,
-                        "direccion":{
-                            "calle": "Calle Mediana 89",
-                            "ciudad": "Girona",
-                            "codigo_postal": 17001,
-                            "provincia": "Girona"
+                    "cliente": {
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
                         },
-                        "email":"luis.henrique@ejemplo.com"
+                        "email": "anacleto.garcia@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Alimento premium para perro 10kg",
                             "referencia": "ALI-003",
@@ -467,23 +455,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T3-05",
-                    "fecha_compra":"2023-09-04",
-                    "fecha_entrega":"2023-09-07",
+                    "numero_pedido": "2023T3-05",
+                    "fecha_compra": "2023-09-04",
+                    "fecha_entrega": "2023-09-07",
                     "total_factura": 65.87,
-                    "cliente":{
-                        "nombre":"Juan",
-                        "apellidos":"Manolo Fernández",
-                        "telefono": 811582326,
-                        "direccion":{
-                            "calle": "Avenida Verdadera 45",
-                            "ciudad": "Alicante",
-                            "codigo_postal": 33012,
-                            "provincia": "Alicante"
+                    "cliente": {
+                        "nombre": "Manuel",
+                        "apellidos": "García López",
+                        "telefono": 678901234,
+                        "direccion": {
+                            "calle": "Calle Inventada 34",
+                            "ciudad": "Málaga",
+                            "codigo_postal": 29015,
+                            "provincia": "Málaga"
                         },
-                        "email":"juan.manolo@ejemplo.com"
+                        "email": "manuel.garcia@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Juguete interactivo para gatos con luces",
                             "referencia": "JUG-004",
@@ -505,25 +493,25 @@
                     ]
                 }
             ],
-            "T4":[
+            "T4": [
                 {
-                    "numero_pedido":"2023T4-01",
-                    "fecha_compra":"2023-10-15",
-                    "fecha_entrega":"2023-10-19",
+                    "numero_pedido": "2023T4-01",
+                    "fecha_compra": "2023-10-15",
+                    "fecha_entrega": "2023-10-19",
                     "total_factura": 121.48,
-                    "cliente":{
-                        "nombre":"Laura",
-                        "apellidos":"González Pérez",
-                        "telefono": 634567890,
-                        "direccion":{
-                            "calle": "Calle de los Animales 23",
-                            "ciudad": "Madrid",
-                            "codigo_postal": 28015,
-                            "provincia": "Madrid"
+                    "cliente": {
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
                         },
-                        "email":"laura.gonzalez@ejemplo.com"
+                        "email": "laura.gomez@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Bebedero automático para gatos",
                             "referencia": "BEB-001",
@@ -545,23 +533,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T4-02",
-                    "fecha_compra":"2023-10-23",
-                    "fecha_entrega":"2023-10-28",
+                    "numero_pedido": "2023T4-02",
+                    "fecha_compra": "2023-10-23",
+                    "fecha_entrega": "2023-10-28",
                     "total_factura": 97.47,
-                    "cliente":{
-                        "nombre":"Carlos",
-                        "apellidos":"Martínez López",
+                    "cliente": {
+                        "nombre": "Carlos",
+                        "apellidos": "Fernández López",
                         "telefono": 612345678,
-                        "direccion":{
-                            "calle": "Avenida de los Robos 15",
-                            "ciudad": "Barcelona",
-                            "codigo_postal": 87010,
-                            "provincia": "Barcelona"
+                        "direccion": {
+                            "calle": "Calle Falsa 123",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28001,
+                            "provincia": "Madrid"
                         },
-                        "email":"carlos.martinez@ejemplo.com"
+                        "email": "carlos.fernandez@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Collar antirruido para perros",
                             "referencia": "COL-001",
@@ -577,23 +565,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T4-03",
-                    "fecha_compra":"2023-11-15",
-                    "fecha_entrega":"2023-11-18",
+                    "numero_pedido": "2023T4-03",
+                    "fecha_compra": "2023-11-15",
+                    "fecha_entrega": "2023-11-18",
                     "total_factura": 55.98,
-                    "cliente":{
-                        "nombre":"Ana",
-                        "apellidos":"Pérez Sánchez",
-                        "telefono": 657123456,
-                        "direccion":{
-                            "calle": "Calle de Mar 42",
-                            "ciudad": "Murcia",
-                            "codigo_postal": 30001,
-                            "provincia": "Murcia"
+                    "cliente": {
+                        "nombre": "Elena",
+                        "apellidos": "Rodríguez Martín",
+                        "telefono": 667890123,
+                        "direccion": {
+                            "calle": "Avenida Principal 23",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
                         },
-                        "email":"ana.perez@ejemplo.com"
+                        "email": "elena.rodriguez@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Pelota para perro",
                             "referencia": "PEL-001",
@@ -608,16 +596,16 @@
                     "fecha_entrega": "2023-11-29",
                     "total_factura": 142.47,
                     "cliente": {
-                        "nombre": "Pedro",
-                        "apellidos": "García López",
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
                         "telefono": 612345678,
                         "direccion": {
-                            "calle": "Calle del Sol 10",
-                            "ciudad": "Valencia",
-                            "codigo_postal": 46001,
-                            "provincia": "Valencia"
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
                         },
-                        "email": "pedro.garcia@ejemplo.com"
+                        "email": "david.ruiz@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -647,23 +635,23 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2023T4-05",
-                    "fecha_compra":"2023-12-15",
-                    "fecha_entrega":"2023-12-20",
+                    "numero_pedido": "2023T4-05",
+                    "fecha_compra": "2023-12-15",
+                    "fecha_entrega": "2023-12-20",
                     "total_factura": 85.97,
-                    "cliente":{
-                        "nombre":"Lucía",
-                        "apellidos":"Rodríguez Martín",
-                        "telefono": 634567890,
-                        "direccion":{
-                            "calle": "Avenida Zaragoza 55",
-                            "ciudad": "Zaragoza",
-                            "codigo_postal": 50001,
-                            "provincia": "Zaragoza"
+                    "cliente": {
+                        "nombre": "María",
+                        "apellidos": "Sánchez López",
+                        "telefono": 645678901,
+                        "direccion": {
+                            "calle": "Plaza del Sol 22",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
                         },
-                        "email":"lucia.rodriguez@ejemplo.com"
+                        "email": "maria.sanchez@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Transportadora para perros medianos",
                             "referencia": "TRA-001",
@@ -680,8 +668,8 @@
                 }
             ]
         },
-        "2024":{
-            "T1":[
+        "2024": {
+            "T1": [
                 {
                     "numero_pedido": "2024T1-01",
                     "fecha_compra": "2024-01-10",
@@ -690,9 +678,9 @@
                     "cliente": {
                         "nombre": "Carlos",
                         "apellidos": "Fernández López",
-                        "telefono": "612345678",
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Av. Principal 123",
+                            "calle": "Calle Falsa 123",
                             "ciudad": "Madrid",
                             "codigo_postal": 28001,
                             "provincia": "Madrid"
@@ -721,10 +709,10 @@
                     "total_factura": 98.75,
                     "cliente": {
                         "nombre": "Laura",
-                        "apellidos": "Gómez Torres",
-                        "telefono": "678901234",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
                         "direccion": {
-                            "calle": "Calle del Sol 45",
+                            "calle": "Avenida Inventada 45",
                             "ciudad": "Barcelona",
                             "codigo_postal": 87010,
                             "provincia": "Barcelona"
@@ -764,16 +752,16 @@
                     "fecha_entrega": "2024-03-05",
                     "total_factura": 32.99,
                     "cliente": {
-                        "nombre": "Miguel",
-                        "apellidos": "Ramírez Castillo",
-                        "telefono": "634567890",
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
                         "direccion": {
-                            "calle": "Calle Mayor 78",
-                            "ciudad": "Valencia",
-                            "codigo_postal": 46003,
-                            "provincia": "Valencia"
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
                         },
-                        "email": "miguel.ramirez@ejemplo.com"
+                        "email": "anacleto.garcia@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -790,16 +778,16 @@
                     "fecha_entrega": "2024-01-30",
                     "total_factura": 76.45,
                     "cliente": {
-                        "nombre": "Ana",
-                        "apellidos": "Martínez Ruiz",
-                        "telefono": "645678901",
+                        "nombre": "Elena",
+                        "apellidos": "Rodríguez Martín",
+                        "telefono": 667890123,
                         "direccion": {
-                            "calle": "Paseo de la Castellana 101",
-                            "ciudad": "Madrid",
-                            "codigo_postal": 28046,
-                            "provincia": "Madrid"
+                            "calle": "Avenida Principal 23",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
                         },
-                        "email": "ana.martinez@ejemplo.com"
+                        "email": "elena.rodriguez@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -829,15 +817,15 @@
                     "total_factura": 65.30,
                     "cliente": {
                         "nombre": "David",
-                        "apellidos": "Sánchez López",
-                        "telefono": "623456789",
+                        "apellidos": "Ruiz Sánchez",
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Calle de la Luna 15",
-                            "ciudad": "Sevilla",
-                            "codigo_postal": 41004,
-                            "provincia": "Sevilla"
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
                         },
-                        "email": "david.sanchez@ejemplo.com"
+                        "email": "david.ruiz@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -861,7 +849,7 @@
                     ]
                 }
             ],
-            "T2":[
+            "T2": [
                 {
                     "numero_pedido": "2024T2-01",
                     "fecha_compra": "2024-04-10",
@@ -869,17 +857,17 @@
                     "total_factura": 101.00,
                     "cliente": {
                         "nombre": "Elena",
-                        "apellidos": "Santos Pérez",
-                        "telefono": "623456789",
+                        "apellidos": "Rodríguez Martín",
+                        "telefono": 667890123,
                         "direccion": {
-                            "calle": "Calle Luna 25",
+                            "calle": "Avenida Principal 23",
                             "ciudad": "Sevilla",
                             "codigo_postal": 41001,
                             "provincia": "Sevilla"
                         },
-                        "email": "elena.santos@ejemplo.com"
+                        "email": "elena.rodriguez@ejemplo.com"
                     },
-                    "productos":[
+                    "productos": [
                         {
                             "nombre_producto": "Cama para perro mediana",
                             "referencia": "CPM-1100",
@@ -901,21 +889,21 @@
                     ]
                 },
                 {
-                    "numero_pedido":"2024T2-02",
+                    "numero_pedido": "2024T2-02",
                     "fecha_compra": "2024-05-12",
                     "fecha_entrega": "2024-05-17",
                     "total_factura": 75.99,
                     "cliente": {
-                        "nombre": "Javier",
-                        "apellidos": "López García",
-                        "telefono": "611223344",
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
                         "direccion": {
-                            "calle": "Av. Andalucía 89",
-                            "ciudad": "Málaga",
-                            "codigo_postal": 29015,
-                            "provincia": "Málaga"
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
                         },
-                        "email": "javier.lopez@ejemplo.com"
+                        "email": "laura.gomez@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -932,16 +920,16 @@
                     "fecha_entrega": "2024-06-08",
                     "total_factura": 56.80,
                     "cliente": {
-                        "nombre": "Elena",
-                        "apellidos": "Sánchez Moreno",
-                        "telefono": "655443322",
+                        "nombre": "Manuel",
+                        "apellidos": "García López",
+                        "telefono": 678901234,
                         "direccion": {
-                            "calle": "Calle de la Luna 22",
-                            "ciudad": "Sevilla",
-                            "codigo_postal": 41004,
-                            "provincia": "Sevilla"
+                            "calle": "Calle Inventada 34",
+                            "ciudad": "Málaga",
+                            "codigo_postal": 29015,
+                            "provincia": "Málaga"
                         },
-                        "email": "elena.sanchez@ejemplo.com"
+                        "email": "manuel.garcia@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -958,16 +946,16 @@
                     "fecha_entrega": "2024-06-20",
                     "total_factura": 85.50,
                     "cliente": {
-                        "nombre": "Roberto",
-                        "apellidos": "Pérez Domínguez",
-                        "telefono": "644556677",
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
+                        "telefono": 612345678,
                         "direccion": {
-                            "calle": "Calle Verde 10",
-                            "ciudad": "Granada",
-                            "codigo_postal": 18012,
-                            "provincia": "Granada"
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
                         },
-                        "email": "roberto.perez@ejemplo.com"
+                        "email": "david.ruiz@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -984,16 +972,16 @@
                     "fecha_entrega": "2024-06-25",
                     "total_factura": 120.75,
                     "cliente": {
-                        "nombre": "Sofía",
-                        "apellidos": "López Gutiérrez",
-                        "telefono": "655443322",
+                        "nombre": "María",
+                        "apellidos": "Sánchez López",
+                        "telefono": 645678901,
                         "direccion": {
-                            "calle": "Avenida del Mar 34",
-                            "ciudad": "Málaga",
-                            "codigo_postal": 29015,
-                            "provincia": "Málaga"
+                            "calle": "Plaza del Sol 22",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
                         },
-                        "email": "sofia.lopez@ejemplo.com"
+                        "email": "maria.sanchez@ejemplo.com"
                     },
                     "productos": [
                         {
@@ -1011,393 +999,393 @@
                     ]
                 }
             ],
-            "T3":[
+            "T3": [
                 {
                     "numero_pedido": "2024T3-01",
                     "fecha_compra": "2024-07-01",
                     "fecha_entrega": "2024-07-05",
                     "total_factura": 120.50,
                     "cliente": {
-                      "nombre": "Alejandro",
-                      "apellidos": "Lopez Sánchez",
-                      "telefono": "612345678",
-                      "direccion": {
-                        "calle": "Calle del Sol, 23",
-                        "ciudad": "Madrid",
-                        "codigo_postal": 28012,
-                        "provincia": "Madrid"
-                      },
-                      "email": "alejandro.lopez@ejemplo.com"
+                        "nombre": "Antonio",
+                        "apellidos": "Díaz Moreno",
+                        "telefono": 656789012,
+                        "direccion": {
+                            "calle": "Calle Ficticia 99",
+                            "ciudad": "Bilbao",
+                            "codigo_postal": 48001,
+                            "provincia": "Vizcaya"
+                        },
+                        "email": "antonio.diaz@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Comida para Perros 15kg",
-                        "referencia": "CP15KG001",
-                        "precio": 30.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Juguete para Perro",
-                        "referencia": "JP001",
-                        "precio": 12.99,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Correa Ajustable",
-                        "referencia": "CA002",
-                        "precio": 18.50,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Comedero Automático",
-                        "referencia": "CA001",
-                        "precio": 25.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Champú para Perros",
-                        "referencia": "CP002",
-                        "precio": 15.00,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Comida para Perros 15kg",
+                            "referencia": "CP15KG001",
+                            "precio": 30.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Juguete para Perro",
+                            "referencia": "JP001",
+                            "precio": 12.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Correa Ajustable",
+                            "referencia": "CA002",
+                            "precio": 18.50,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Comedero Automático",
+                            "referencia": "CA001",
+                            "precio": 25.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Champú para Perros",
+                            "referencia": "CP002",
+                            "precio": 15.00,
+                            "unidades": 1
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T3-02",
                     "fecha_compra": "2024-08-05",
                     "fecha_entrega": "2024-08-10",
                     "total_factura": 75.00,
                     "cliente": {
-                      "nombre": "Lucía",
-                      "apellidos": "García Fernández",
-                      "telefono": "623456789",
-                      "direccion": {
-                        "calle": "Avenida de la Paz, 45",
-                        "ciudad": "Sevilla",
-                        "codigo_postal": 41005,
-                        "provincia": "Sevilla"
-                      },
-                      "email": "lucia.garcia@ejemplo.com"
+                        "nombre": "Carlos",
+                        "apellidos": "Fernández López",
+                        "telefono": 612345678,
+                        "direccion": {
+                            "calle": "Calle Falsa 123",
+                            "ciudad": "Madrid",
+                            "codigo_postal": 28001,
+                            "provincia": "Madrid"
+                        },
+                        "email": "carlos.fernandez@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Rascador para Gato",
-                        "referencia": "RG001",
-                        "precio": 22.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Arena para Gatos 10kg",
-                        "referencia": "AG10KG001",
-                        "precio": 10.50,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Comida para Gatos 5kg",
-                        "referencia": "CG05KG001",
-                        "precio": 18.00,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Rascador para Gato",
+                            "referencia": "RG001",
+                            "precio": 22.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Arena para Gatos 10kg",
+                            "referencia": "AG10KG001",
+                            "precio": 10.50,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Comida para Gatos 5kg",
+                            "referencia": "CG05KG001",
+                            "precio": 18.00,
+                            "unidades": 1
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T3-03",
                     "fecha_compra": "2024-09-10",
                     "fecha_entrega": "2024-09-15",
                     "total_factura": 160.30,
                     "cliente": {
-                      "nombre": "Carlos",
-                      "apellidos": "Fernández Díaz",
-                      "telefono": "634567890",
-                      "direccion": {
-                        "calle": "Calle Mayor, 11",
-                        "ciudad": "Valencia",
-                        "codigo_postal": 46001,
-                        "provincia": "Valencia"
-                      },
-                      "email": "carlos.fernandez@ejemplo.com"
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
+                        },
+                        "email": "laura.gomez@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Jaula para Conejo",
-                        "referencia": "JC001",
-                        "precio": 45.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Pañales para Gatos",
-                        "referencia": "PG002",
-                        "precio": 14.50,
-                        "unidades": 3
-                      },
-                      {
-                        "nombre_producto": "Alimento para Conejos 1kg",
-                        "referencia": "AC01KG",
-                        "precio": 10.00,
-                        "unidades": 2
-                      }
+                        {
+                            "nombre_producto": "Jaula para Conejo",
+                            "referencia": "JC001",
+                            "precio": 45.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Pañales para Gatos",
+                            "referencia": "PG002",
+                            "precio": 14.50,
+                            "unidades": 3
+                        },
+                        {
+                            "nombre_producto": "Alimento para Conejos 1kg",
+                            "referencia": "AC01KG",
+                            "precio": 10.00,
+                            "unidades": 2
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T3-04",
                     "fecha_compra": "2024-08-15",
                     "fecha_entrega": "2024-08-20",
                     "total_factura": 98.75,
                     "cliente": {
-                      "nombre": "María",
-                      "apellidos": "Ruiz Gómez",
-                      "telefono": "645678901",
-                      "direccion": {
-                        "calle": "Calle de la Luna, 12",
-                        "ciudad": "Barcelona",
-                        "codigo_postal": 87010,
-                        "provincia": "Barcelona"
-                      },
-                      "email": "maria.ruiz@ejemplo.com"
+                        "nombre": "María",
+                        "apellidos": "Sánchez López",
+                        "telefono": 645678901,
+                        "direccion": {
+                            "calle": "Plaza del Sol 22",
+                            "ciudad": "Sevilla",
+                            "codigo_postal": 41001,
+                            "provincia": "Sevilla"
+                        },
+                        "email": "maria.sanchez@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Peluche para Perro",
-                        "referencia": "PP001",
-                        "precio": 18.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Arenero para Gato",
-                        "referencia": "AG001",
-                        "precio": 24.99,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Cama para Perro",
-                        "referencia": "CP001",
-                        "precio": 30.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Snacks para Perro",
-                        "referencia": "SP001",
-                        "precio": 25.00,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Peluche para Perro",
+                            "referencia": "PP001",
+                            "precio": 18.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Arenero para Gato",
+                            "referencia": "AG001",
+                            "precio": 24.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Cama para Perro",
+                            "referencia": "CP001",
+                            "precio": 30.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Snacks para Perro",
+                            "referencia": "SP001",
+                            "precio": 25.00,
+                            "unidades": 1
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T3-05",
                     "fecha_compra": "2024-09-20",
                     "fecha_entrega": "2024-09-25",
                     "total_factura": 110.80,
                     "cliente": {
-                      "nombre": "Javier",
-                      "apellidos": "Sánchez Morales",
-                      "telefono": "654321098",
-                      "direccion": {
-                        "calle": "Calle del Río, 9",
-                        "ciudad": "Zaragoza",
-                        "codigo_postal": 50001,
-                        "provincia": "Zaragoza"
-                      },
-                      "email": "javier.sanchez@ejemplo.com"
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
+                        },
+                        "email": "anacleto.garcia@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Comida para Perros 10kg",
-                        "referencia": "CP10KG001",
-                        "precio": 28.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Juguete para Gato",
-                        "referencia": "JG001",
-                        "precio": 9.99,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Transportín para Perro",
-                        "referencia": "TP001",
-                        "precio": 42.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Correa para Gato",
-                        "referencia": "CG001",
-                        "precio": 14.50,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Comida para Perros 10kg",
+                            "referencia": "CP10KG001",
+                            "precio": 28.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Juguete para Gato",
+                            "referencia": "JG001",
+                            "precio": 9.99,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Transportín para Perro",
+                            "referencia": "TP001",
+                            "precio": 42.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Correa para Gato",
+                            "referencia": "CG001",
+                            "precio": 14.50,
+                            "unidades": 1
+                        }
                     ]
-                  }
+                }
             ],
-            "T4":[
+            "T4": [
                 {
                     "numero_pedido": "2024T4-01",
                     "fecha_compra": "2024-10-01",
                     "fecha_entrega": "2024-10-05",
                     "total_factura": 85.50,
                     "cliente": {
-                      "nombre": "Antonio",
-                      "apellidos": "Martínez Pérez",
-                      "telefono": "622334455",
-                      "direccion": {
-                        "calle": "Calle del Norte, 5",
-                        "ciudad": "Madrid",
-                        "codigo_postal": 28015,
-                        "provincia": "Madrid"
-                      },
-                      "email": "antonio.martinez@ejemplo.com"
+                        "nombre": "Antonio",
+                        "apellidos": "Díaz Moreno",
+                        "telefono": 656789012,
+                        "direccion": {
+                            "calle": "Calle Ficticia 99",
+                            "ciudad": "Bilbao",
+                            "codigo_postal": 48001,
+                            "provincia": "Vizcaya"
+                        },
+                        "email": "antonio.diaz@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Comida para Perros 5kg",
-                        "referencia": "CP5KG001",
-                        "precio": 20.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Juguete para Perro",
-                        "referencia": "JP001",
-                        "precio": 12.50,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Comida para Perros 5kg",
+                            "referencia": "CP5KG001",
+                            "precio": 20.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Juguete para Perro",
+                            "referencia": "JP001",
+                            "precio": 12.50,
+                            "unidades": 1
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T4-02",
                     "fecha_compra": "2024-11-05",
                     "fecha_entrega": "2024-11-10",
                     "total_factura": 150.00,
                     "cliente": {
-                      "nombre": "Beatriz",
-                      "apellidos": "Gómez Ruiz",
-                      "telefono": "633445566",
-                      "direccion": {
-                        "calle": "Calle de la Estrella, 22",
-                        "ciudad": "Sevilla",
-                        "codigo_postal": 41010,
-                        "provincia": "Sevilla"
-                      },
-                      "email": "beatriz.gomez@ejemplo.com"
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
+                        },
+                        "email": "laura.gomez@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Comida para Gatos 10kg",
-                        "referencia": "CG10KG001",
-                        "precio": 35.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Arenero para Gatos",
-                        "referencia": "AG001",
-                        "precio": 25.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Rascador para Gatos",
-                        "referencia": "RG001",
-                        "precio": 30.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Comida Húmeda para Gatos",
-                        "referencia": "CHG003",
-                        "precio": 15.00,
-                        "unidades": 3
-                      }
+                        {
+                            "nombre_producto": "Comida para Gatos 10kg",
+                            "referencia": "CG10KG001",
+                            "precio": 35.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Arenero para Gatos",
+                            "referencia": "AG001",
+                            "precio": 25.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Rascador para Gatos",
+                            "referencia": "RG001",
+                            "precio": 30.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Comida Húmeda para Gatos",
+                            "referencia": "CHG003",
+                            "precio": 15.00,
+                            "unidades": 3
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T4-03",
                     "fecha_compra": "2024-12-10",
                     "fecha_entrega": "2024-12-15",
                     "total_factura": 112.00,
                     "cliente": {
-                      "nombre": "Jorge",
-                      "apellidos": "Lozano Fernández",
-                      "telefono": "644556677",
-                      "direccion": {
-                        "calle": "Calle de la Luna, 33",
-                        "ciudad": "Valencia",
-                        "codigo_postal": 46002,
-                        "provincia": "Valencia"
-                      },
-                      "email": "jorge.lozano@ejemplo.com"
+                        "nombre": "Anacleto",
+                        "apellidos": "García López",
+                        "telefono": 689012345,
+                        "direccion": {
+                            "calle": "Calle Real 12",
+                            "ciudad": "Léganes",
+                            "codigo_postal": 52020,
+                            "provincia": "Madrid"
+                        },
+                        "email": "anacleto.garcia@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Comida para Conejos 1kg",
-                        "referencia": "CC01KG001",
-                        "precio": 10.00,
-                        "unidades": 3
-                      },
-                      {
-                        "nombre_producto": "Jaula para Conejo",
-                        "referencia": "JC002",
-                        "precio": 40.00,
-                        "unidades": 1
-                      }
+                        {
+                            "nombre_producto": "Comida para Conejos 1kg",
+                            "referencia": "CC01KG001",
+                            "precio": 10.00,
+                            "unidades": 3
+                        },
+                        {
+                            "nombre_producto": "Jaula para Conejo",
+                            "referencia": "JC002",
+                            "precio": 40.00,
+                            "unidades": 1
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T4-04",
                     "fecha_compra": "2024-10-15",
                     "fecha_entrega": "2024-10-20",
                     "total_factura": 75.00,
                     "cliente": {
-                      "nombre": "Marta",
-                      "apellidos": "Sánchez Díaz",
-                      "telefono": "666777888",
-                      "direccion": {
-                        "calle": "Avenida del Sol, 14",
-                        "ciudad": "Barcelona",
-                        "codigo_postal": 87010,
-                        "provincia": "Barcelona"
-                      },
-                      "email": "marta.sanchez@ejemplo.com"
+                        "nombre": "David",
+                        "apellidos": "Ruiz Sánchez",
+                        "telefono": 612345678,
+                        "direccion": {
+                            "calle": "Paseo de la Estación, 88",
+                            "ciudad": "Valladolid",
+                            "codigo_postal": 47003,
+                            "provincia": "Castilla y León"
+                        },
+                        "email": "david.ruiz@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Collar para Perro",
-                        "referencia": "CP001",
-                        "precio": 12.00,
-                        "unidades": 2
-                      }
+                        {
+                            "nombre_producto": "Collar para Perro",
+                            "referencia": "CP001",
+                            "precio": 12.00,
+                            "unidades": 2
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "numero_pedido": "2024T4-05",
                     "fecha_compra": "2024-11-20",
                     "fecha_entrega": "2024-11-25",
                     "total_factura": 130.75,
                     "cliente": {
-                      "nombre": "Ricardo",
-                      "apellidos": "Vega Martínez",
-                      "telefono": "677889900",
-                      "direccion": {
-                        "calle": "Calle Nueva, 18",
-                        "ciudad": "Zaragoza",
-                        "codigo_postal": 50003,
-                        "provincia": "Zaragoza"
-                      },
-                      "email": "ricardo.vega@ejemplo.com"
+                        "nombre": "Laura",
+                        "apellidos": "Gómez Ruiz",
+                        "telefono": 623456789,
+                        "direccion": {
+                            "calle": "Avenida Inventada 45",
+                            "ciudad": "Barcelona",
+                            "codigo_postal": 87010,
+                            "provincia": "Barcelona"
+                        },
+                        "email": "laura.gomez@ejemplo.com"
                     },
                     "productos": [
-                      {
-                        "nombre_producto": "Alimento para Perros 15kg",
-                        "referencia": "AP15KG001",
-                        "precio": 35.00,
-                        "unidades": 2
-                      },
-                      {
-                        "nombre_producto": "Cama para Perro",
-                        "referencia": "CP002",
-                        "precio": 25.00,
-                        "unidades": 1
-                      },
-                      {
-                        "nombre_producto": "Juguete para Gato",
-                        "referencia": "JG002",
-                        "precio": 8.00,
-                        "unidades": 3
-                      }
+                        {
+                            "nombre_producto": "Alimento para Perros 15kg",
+                            "referencia": "AP15KG001",
+                            "precio": 35.00,
+                            "unidades": 2
+                        },
+                        {
+                            "nombre_producto": "Cama para Perro",
+                            "referencia": "CP002",
+                            "precio": 25.00,
+                            "unidades": 1
+                        },
+                        {
+                            "nombre_producto": "Juguete para Gato",
+                            "referencia": "JG002",
+                            "precio": 8.00,
+                            "unidades": 3
+                        }
                     ]
                 }
             ]
