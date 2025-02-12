@@ -19,7 +19,7 @@ function formatearFecha(fecha) {
     return new Date(fecha).toLocaleDateString('es-ES', opciones);
 }
 
-function mostrarPedidos(data) {
+function mostrarPedidos(data) { //Funcion para poder observar en el html los pedidos que se han efectuado
     const tablaPedidos = document.querySelector("#tabla-pedidos tbody");
 
     Object.keys(data.pedidos).forEach(year => {
@@ -45,7 +45,7 @@ function mostrarPedidos(data) {
     });
 }
 
-function mostrarClientes(data) {
+function mostrarClientes(data) { //funcion para poder mostrar a todos los clientes que han efectuado algun pedido
     const tablaClientes = document.querySelector("#tabla-clientes tbody");
     const clientes = {};
 
@@ -89,7 +89,7 @@ function mostrarClientes(data) {
 }
 
 
-function mostrarFactura(data) {
+function mostrarFactura(data) { //funcion para poder observar la factura de un cliente
     const tablaFactura = document.querySelector("#tabla-factura tbody");
 
     Object.keys(data.pedidos).forEach(year => {
@@ -116,7 +116,7 @@ function mostrarFactura(data) {
     });
 }
 
-function mostrarProductosVendidos2023(data) {
+function mostrarProductosVendidos2023(data) { //funcion para poder observar los productos vendidos en el primer trimestre de 2023
     const tablaProductosVendidos2023 = document.querySelector("#tabla-productos2023 tbody");
 
     if (data.pedidos["2023"] && data.pedidos["2023"]["T1"]) {
@@ -139,7 +139,7 @@ function mostrarProductosVendidos2023(data) {
     }
 }
 
-function mostrarProductosVendidos2024(data) {
+function mostrarProductosVendidos2024(data) { //funcion para poder mostrar los productos vendidos en el ultimo trimestre de 2024
     const tablaProductosVendidos2024 = document.querySelector("#tabla-productos2024 tbody");
 
     if (data.pedidos["2024"] && data.pedidos["2024"]["T4"]) {
