@@ -1,0 +1,48 @@
+{
+    "catalogo":{
+        "libros":[
+            {
+                "titulo":"El Quijote",
+                "autor":"Miguel de Cervantes",
+                "anio":"1605",
+                "precio":{"moneda":"EUR", "valor":18.99}
+            },
+            {
+                "titulo":"Cien años de soledad",
+                "autor":"Gabriel García Márquez",
+                "anio":"1967",
+                "precio":{"moneda":"USD", "valor":15.50}
+            },
+            {
+                "titulo": "El Señor de los Anillos",
+                "autor": "J.R.R. Tolkien",
+                "anio": 1954,
+                "precio": {"moneda": "USD", "valor": 25.99}
+            },
+            {
+                "titulo": "1984",
+                "autor": "George Orwell",
+                "anio": 1949,
+                "precio": {"moneda": "GBP", "valor": 12.99}
+            },
+            {
+                "titulo": "Orgullo y prejuicio",
+                "autor": "Jane Austen",
+                "anio": 1813,
+                "precio": {"moneda": "GBP", "valor": 10.50}
+            },
+            {
+                "titulo": "Crimen y castigo",
+                "autor": "Fiodor Dostoievski",
+                "anio": 1866,
+                "precio": {"moneda": "RUB", "valor": 14.00}
+            },
+            {
+                "titulo": "Don Juan Tenorio",
+                "autor": "José Zorrilla",
+                "anio": 1844,
+                "precio": {"moneda": "EUR", "valor": 9.99}
+            }
+        ]
+    }
+}
