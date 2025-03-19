@@ -3,5 +3,6 @@ function NumeroPrimos(){
     let n2 = parseInt(prompt("Pon un número entero: "));
 
     for (let i = n1; i < n2; i++) {
+        
     }
 }
