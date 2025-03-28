@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Horario de Trabajo</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table id="Tabla">
+        <tr>
+            <th></th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td id="primera">9:00-10:00</td>
+            <td id="primeraLunes"></td>
+            <td id="primeraMartes"></td>
+            <td id="primeraMiercoles"></td>
+            <td id="primeraJueves"></td>
+            <td id="primeraViernes"></td>
+        </tr>
+        <tr>
+            <td id="segunda">10:00-11:00</td>
+            <td id="segundaLunes"></td>
+            <td id="segundaMartes"></td>
+            <td id="segundaMiercoles"></td>
+            <td id="segundaJueves"></td>
+            <td id="segundaViernes"></td>
+        </tr>
+        <tr>
+            <td id="tercera">11:00-11:50</td>
+            <td id="terceraLunes"></td>
+            <td id="terceraMartes"></td>
+            <td id="terceraMiercoles"></td>
+            <td id="terceraJueves"></td>
+            <td id="terceraViernes"></td>
+        </tr>
+        <tr>
+            <td>11:50-12:10</td>
+            <td colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <td id="cuarta">12:10-13:00</td>
+            <td id="cuartaLunes"></td>
+            <td id="cuartaMartes"></td>
+            <td id="cuartaMiercoles"></td>
+            <td id="cuartaJueves"></td>
+            <td id="cuartaViernes"></td>
+        </tr>
+        <tr>
+            <td id="quinta">13:00-14:00</td>
+            <td id="quintaLunes"></td>
+            <td id="quintaMartes"></td>
+            <td id="quintaMiercoles"></td>
+            <td id="quintaJueves"></td>
+            <td id="quintaViernes"></td>
+        </tr>
+        <tr>
+            <td id="sexta">14:00-15:00</td>
+            <td id="sextaLunes"></td>
+            <td id="sextaMartes"></td>
+            <td id="sextaMiercoles"></td>
+            <td id="sextaJueves"></td>
+            <td id="sextaViernes"></td>
+        </tr>
+    </table>
+
+    <script>
+        var dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes'];
+        var asignatura = ['primera', 'segunda', 'tercera', 'cuarta', 'quinta', 'sexta'];
+    
+        for (var i = 0; i < dias.length; i++) {
+            for (var j = 0; j < asignatura.length; j++) {
+                var clase = prompt("Introduce el nombre del trabajador para el turno de " + asignatura[j] + " del " + dias[i]);
+                var color = prompt("Introduce el color para la celda");
+    
+                var celdaId = asignatura[j] + dias[i].charAt(0).toUpperCase() + dias[i].slice(1); 
+                var celda = document.getElementById(celdaId);
+    
+                if (celda) {
+                    celda.innerHTML = clase;
+                    celda.style.backgroundColor = color;
+                } else {
+                    console.error("No se encontró la celda con ID: " + celdaId);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
