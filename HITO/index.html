@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo/#.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZwv-model-vue1T"
+        crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="css/css.css" rel="stylesheet">
+    <title>Index</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <a class="navbar-brand" href="#">Mi Sitio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tiempo.html">Tiempo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <h1>Leganés</h1><br>
+        <p>Leganés es un municipio y una ciudad española que forma parte de la Comunidad<br>
+            de Madrid. Se encuentra dentro del área metropolitana de Madrid y está situada a<br>
+            once kilómetros al sudoeste de la capital. Su población es de 194 084 habitantes,<br>
+            lo que la convierte en la cuarta localidad madrileña más poblada y en la trigésimo <br>
+            segunda más grande del país.</p><br>
+
+        <h3>Historia</h3>
+        <p>Fundada en 1280 como «Legamar» durante el reinado de Alfonso X el Sabio, años<br>
+            después adoptó el topónimo actual, y en 1345 se incorporó como aldea al alfoz de<br>
+            Madrid. En 1627 se convirtió en una villa de señorío cuando el rey Felipe IV creó el<br>
+            marquesado de Leganés, y se mantuvo como tal hasta que en 1820 fueron abolidos<br>
+            los privilegios feudales.</p><br>
+
+        <h3>Fiestas patronales</h3>
+        <p>La mayor celebración en toda la ciudad se produce el 16 de agosto con la festividad dedicada a Nuestra Señora
+            de Butarque,<br>
+            patrona de la ciudad. Las fiestas duran una semana, y a las actividades programadas por el Ayuntamiento
+            (tales como conciertos, feria,<br>
+            encierros u orquestas) se suman las realizadas por las diversas peñas. Las siguientes en importancia son las
+            del 11 de octubre<br>
+            por Nicasio de Reims (San Nicasio). Son organizadas entre el ayuntamiento y la Asociación de Vecinos del
+            barrio. Se realizan actividades<br>
+            similares a las de Butarque, aunque están enfocadas especialmente en el barrio.</p><br>
+
+        <p>Cabe destacar las festividades de otros barrios. La Fortuna celebra sus fiestas por San Fortunato en la
+            última semana de junio,<br>
+            mientras que los barrios de Zarzaquemada, Leganés Norte, El Carrascal y Vereda de los Estudiantes organizan
+            actividades durante la semana de San Juan.</p><br>
+
+        <img src="img/Escudo_de_Leganes.png" class="escudo"><br>
+        <div class="carousel mx-auto d-flex justify-content-center align-items-center">
+            <div class="carousel-container">
+                <img src="img/img1.jpg" class="carousel-item active">
+                <img src="img/img2.jpg" class="carousel-item active">
+                <img src="img/img3.jpg" class="carousel-item active">
+                <img src="img/img4.jpg" class="carousel-item active">
+                <img src="img/img5.jpg" class="carousel-item active">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+            <div class="indicators"></div>
+        </div><br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29941.157065770913!2d-3.786798597026732!3d40.32811653986584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a1c0fc4eac9%3A0xd08f90220cc34cb!2sLegan%C3%A9s%2C%20Madrid!5e1!3m2!1ses!2ses!4v1743581298416!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

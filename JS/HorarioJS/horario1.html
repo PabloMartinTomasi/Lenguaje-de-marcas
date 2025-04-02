@@ -82,15 +82,13 @@
         </tr>
     </table>
 
-    <p class="backgroundColor: red">hola</p>
-
     <script>
         var dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes'];
         var asignatura = ['primera', 'segunda', 'tercera', 'cuarta', 'quinta', 'sexta'];
     
         for (var i = 0; i < dias.length; i++) {
             for (var j = 0; j < asignatura.length; j++) {
-                var clase = prompt("Introduce el nombre del trabajador para el turno de " + asignatura[j] + " del " + dias[i]);
+                var clase = prompt("Introduce el nombre de la asignatura para el " + asignatura[j] + " del " + dias[i]);
                 var color = prompt("Introduce el color para la celda");
     
                 var celdaId = asignatura[j] + dias[i].charAt(0).toUpperCase() + dias[i].slice(1); 
