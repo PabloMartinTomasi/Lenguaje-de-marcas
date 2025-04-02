@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos meteorologicos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://www.fundacionaquae.org/wp-content/uploads/2019/02/nubes-y-cambio-climatico-1024x576.jpg');
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        #weather-table {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <form id="dataSelectionForm">
+            <div class="form-group">
+                <label for="indexSelect">Selecciona un índice:</label>
+                <select class="form-control" id="indexSelect">
+                </select>
+            </div>
+        </form>
+        <table id="weather-table" class="table">
+            <thead>
+                <tr>
+                    <th>Ciudad</th>
+                    <th>Provincia</th>
+                    <th>Descripción del Clima</th>
+                    <th>Temperatura Máxima (°C)</th>
+                    <th>Temperatura Mínima (°C)</th>
+                </tr>
+            </thead>
+            <tbody id="weather-data">
+            </tbody>
+        </table>
+    </div>
+    <script>
+        window.onload = function() {
+            fetch('https://www.el-tiempo.net/api/json/v2/home')
+                .then(response => response.json())
+                .then(data => {
+                    const cities = data.ciudades;
+                    const citySelect = document.getElementById('indexSelect');
+                    cities.forEach(city => {
+                        const option = document.createElement('option');
+                        option.value = city.name;
+                        option.text = city.name;
+                        citySelect.appendChild(option);
+                    });
+                    citySelect.addEventListener('change', function() {
+                        const selectedCity = cities.find(city => city.name === this.value);
+                        if (selectedCity) {
+                            const weatherTable = document.getElementById('weather-table');
+                            weatherTable.innerHTML = `
+                                <thead>
+                                    <tr>
+                                        <th>Ciudad</th>
+                                        <th>Provincia</th>
+                                        <th>Descripción del Clima</th>
+                                        <th>Temperatura Máxima (°C)</th>
+                                        <th>Temperatura Mínima (°C)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>${selectedCity.name}</td>
+                                        <td>${selectedCity.nameProvince}</td>
+                                        <td>${selectedCity.stateSky.description}</td>
+                                        <td>${selectedCity.temperatures.max}</td>
+                                        <td>${selectedCity.temperatures.min}</td>
+                                    </tr>
+                                </tbody>
+                            `;
+                        }
+                    });
+                    citySelect.dispatchEvent(new Event('change')); // Trigger the change event to load the data initially
+                })
+                .catch(error => console.error('Error:', error));
+        };
+    </script>
+
+    
+
+</body>
+</html></footer>
