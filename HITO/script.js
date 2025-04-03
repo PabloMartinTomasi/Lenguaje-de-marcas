@@ -44,6 +44,14 @@ window.onload = function() {
         .then(data => {
             const cities = data.ciudades;
             const citySelect = document.getElementById('indexSelect');
+
+            const defaultOption = document.createElement('option');
+            defaultOption.value = "";
+            defaultOption.text = "Seleccione una ciudad";
+            defaultOption.selected = true;
+            defaultOption.disabled = true;
+            citySelect.appendChild(defaultOption);
+
             cities.forEach(city => {
                 const option = document.createElement('option');
                 option.value = city.name;
