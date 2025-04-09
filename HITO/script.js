@@ -47,7 +47,6 @@ window.onload = function () {
             const citySelect = document.getElementById('indexSelect');
             const weatherStateSelect = document.getElementById('weatherState');
 
-            // Llenar las opciones de ciudades
             cities.forEach(city => {
                 const option = document.createElement('option');
                 option.value = city.name;
@@ -55,31 +54,26 @@ window.onload = function () {
                 citySelect.appendChild(option);
             });
 
-            // Obtener todos los estados del cielo disponibles
             const weatherStates = [...new Set(cities.map(city => city.stateSky.description))];
             weatherStates.forEach(state => {
                 const option = document.createElement('option');
-                option.value = state.toLowerCase(); // Guardamos las opciones en minúsculas
+                option.value = state.toLowerCase();
                 option.text = state;
                 weatherStateSelect.appendChild(option);
             });
 
-            // Función para actualizar los datos de clima filtrados
             function updateWeatherData() {
                 const selectedCity = document.getElementById('indexSelect').value;
-                const minTemp = parseFloat(document.getElementById('minTemp').value) || -Infinity; // Si no hay valor, lo tratamos como -infinito
-                const maxTemp = parseFloat(document.getElementById('maxTemp').value) || Infinity; // Si no hay valor, lo tratamos como +infinito
+                const minTemp = parseFloat(document.getElementById('minTemp').value) || -Infinity;
+                const maxTemp = parseFloat(document.getElementById('maxTemp').value) || Infinity;
                 const selectedWeatherState = document.getElementById('weatherState').value;
 
-                // Filtrar las ciudades por temperatura y estado del cielo
                 let filteredCities = cities;
 
-                // Filtro por ciudad
                 if (selectedCity && selectedCity !== "all") {
                     filteredCities = filteredCities.filter(city => city.name === selectedCity);
                 }
 
-                // Filtro por rango de temperatura
                 filteredCities = filteredCities.filter(city => {
                     const minCityTemp = city.temperatures.min;
                     const maxCityTemp = city.temperatures.max;
@@ -87,14 +81,12 @@ window.onload = function () {
                     return (minCityTemp >= minTemp && maxCityTemp <= maxTemp);
                 });
 
-                // Filtro por estado del cielo
                 if (selectedWeatherState !== 'all') {
                     filteredCities = filteredCities.filter(city =>
                         city.stateSky.description.toLowerCase().includes(selectedWeatherState.toLowerCase())
                     );
                 }
 
-                // Actualizar la tabla con los resultados filtrados
                 const weatherTable = document.getElementById('weather-data');
                 weatherTable.innerHTML = `
                             ${filteredCities.map(city => `
@@ -109,14 +101,12 @@ window.onload = function () {
                         `;
             }
 
-            // Eventos de cambio para los filtros
             document.getElementById('minTemp').addEventListener('change', updateWeatherData);
             document.getElementById('maxTemp').addEventListener('change', updateWeatherData);
             document.getElementById('weatherState').addEventListener('change', updateWeatherData);
             document.getElementById('indexSelect').addEventListener('change', updateWeatherData);
 
-            // Llamada inicial para cargar los datos
-            citySelect.dispatchEvent(new Event('change')); // Esto cargará el clima para la ciudad seleccionada
+            citySelect.dispatchEvent(new Event('change'));
         })
         .catch(error => console.error('Error:', error));
 };
