@@ -29,7 +29,9 @@ class Pelicula{
     }
 }
 
-const peli1 = new Pelicula();
+const peli1 = new Pelicula('El Señor de los Anillos: La Comunidad del Anillo', 'Peter Jackson', 2001, 'Fantasía / Aventura', ['HBO Max', 'Amazon Prime'],[10, 9]);
+const peli2 = new Pelicula('Star Wars: Episodio V - El Imperio Contraataca','Irvin Kershner',1980,'Ciencia ficción / Aventura',['Disney+'],[10]);
+const peli3 = new Pelicula('Interstellar','Christopher Nolan',2014,'Ciencia ficción / Drama',['Netflix', 'HBO Max'],[9, 9]);
 
 peli1.mostrarDatosPeliculas();
 peli2.mostrarDatosPeliculas();

@@ -8,15 +8,15 @@ function Calculo(){
     switch(opcion){
         case 1:
             let suma = n1 + n2;
-            console.log("La suma de " + n1 + " y de " + n2 + " es " + suma);
+            alert ("La suma de " + n1 + " y de " + n2 + " es " + suma);
             break;
         case 2:
             let resta = n1 - n2;
-            console.log("La resta de " + n1 + " y de " + n2 + " es " + resta);
+            alert ("La resta de " + n1 + " y de " + n2 + " es " + resta);
             break;
         case 3:
             let multiplicar = n1 * n2;
-            console.log("La multiplicacion de " + n1 + " y de " + n2 + " es " + multiplicar);
+            alert ("La multiplicacion de " + n1 + " y de " + n2 + " es " + multiplicar);
             break;
     }
 }
