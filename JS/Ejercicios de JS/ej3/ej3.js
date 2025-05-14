@@ -18,6 +18,9 @@ function Calculo(){
             let multiplicar = n1 * n2;
             console.log("La multiplicacion de " + n1 + " y de " + n2 + " es " + multiplicar);
             break;
+        default:
+            console.log("Seleciona una opcion del menu");
+            break;
     }
 }
 Calculo();
