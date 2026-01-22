@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de multiplicacion</title>
+</head>
+
+<body>
+    <h2>Calcular Media</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre"><br>
+    <label for="n1">Nota 1:</label>
+    <input type="number" id="n1"><br>
+    <label for="n2">Nota 2:</label>
+    <input type="number" id="n2"><br>
+    <label for="n3">Nota 3:</label>
+    <input type="number" id="n3"><br>
+    <button onclick="calcularMedia()">Calcular Media</button>
+    <div id="resultadoMedia"></div>
+    <script>
+        function calcularMedia() {
+            const nombre = document.getElementById("nombre").value;
+            const n1 = parseFloat(document.getElementById("n1").value);
+            const n2 = parseFloat(document.getElementById("n2").value);
+            const n3 = parseFloat(document.getElementById("n3").value);
+
+            const media = (n1 + n2 + n3) / 3;
+            let resultado = `<p>Nombre: ${nombre}</p>`;
+            resultado += `<p>Tu media es de ${media.toFixed(2)}</p>`;
+
+            if (media < 5) {
+                resultado += `<p>Resultado: Suspenso</p>`;
+            } else if (media < 7) {
+                resultado += `<p>Resultado: Aprobado</p>`;
+            } else if (media < 9) {
+                resultado += `<p>Resultado: Notable</p>`;
+            } else {
+                resultado += `<p>Resultado: Sobresaliente</p>`;
+            }
+
+            document.getElementById("resultadoMedia").innerHTML = resultado;
+        }
+    </script>
+</body>
+
+</html>

@@ -35,3 +35,5 @@ class Conversor {
 
 const miConversor = new Conversor();
 miConversor.index();
+
+fun

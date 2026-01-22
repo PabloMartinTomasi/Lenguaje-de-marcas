@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Listado de peliculas</h1>
+    <div id="peliculas"></div>
+
+    <script>
+        class Pelicula {
+            constructor(titulo, director, anio, genero, plataforma, valoraciones) {
+                this.titulo = titulo;
+                this.director = director;
+                this.anio = anio;
+                this.genero = genero;
+                this.plataforma = plataforma;
+                this.valoraciones = valoraciones;
+            }
+
+            mediaValoraciones() {
+                let total = 0;
+                for (let i = 0; i < this.valoraciones.length; i++) {
+                    total += this.valoraciones[i];
+                }
+                let media = total / this.valoraciones.length;
+                return media.toFixed(1);
+            }
+
+            datosPeliculas() {
+                let valoracionesHtml = this.valoraciones.map((valoracion, i) => {
+                    return `<p>Valoración ${i + 1}: ${valoracion}</p>`;
+                }).join("");
+                return `
+                <h3>${this.titulo}</h3>
+                <p>Director: ${this.director}</p>
+                <p>Año: ${this.anio}</p>
+                <p>Género: ${this.genero}</p>
+                <p>Plataforma: ${this.plataforma}</p>
+                ${valoracionesHtml}
+                <p>Valoracion media: ${this.mediaValoraciones()}</p>
+                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+                `;
+            }
+        }
+
+        const peli1 = new Pelicula("La La Land", "Damien Chazelle", 2016, "Musical / Drama", "Netflix", [8, 9, 10, 7.5]);
+        const peli2 = new Pelicula("Parásitos", "Bong Joon-ho", 2019, "Drama / Thriller", "Amazon Prime", [9.5, 9, 10, 8.5]);
+        const peli3 = new Pelicula("Interstellar", "Christopher Nolan", 2014, "Ciencia ficción", "HBO Max", [10, 9.5, 9, 10]);
+
+        const peliculas = [peli1, peli2, peli3];
+
+        const contenedor = document.getElementById("peliculas");
+        peliculas.forEach(function (pelicula) {
+            contenedor.innerHTML = contenedor.innerHTML + pelicula.datosPeliculas();
+        });
+    </script>
+</body>
+
+</html>

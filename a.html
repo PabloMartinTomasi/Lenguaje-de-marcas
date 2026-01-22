@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Listado de Alumnos</h1>
+    <div id="resultado"></div>
+
+    <script>
+        class notas {
+            constructor(nombre, edad, curso, email, asignaturas, notas) {
+                this.nombre = nombre;
+                this.edad = edad;
+                this.curso = curso;
+                this.email = email;
+                this.asignaturas = asignaturas;
+                this.notas = notas;
+            }
+
+            calcularMedia() {
+                let suma = 0;
+
+                for (let i = 0; i < this.notas.length; i++) {
+                    suma = suma + this.notas[i];
+                }
+
+                let media = suma / this.notas.length;
+                return media;
+            }
+
+            mostrarDatos() {
+                let asignaturasHtml = this.asignaturas.map((asignatura, i) => {
+                    return `<p>${asignatura}: ${this.notas[i]}</p>`;
+                }).join("");
+                return `
+                <h3>${this.nombre}</h3>
+                <p>Edad: ${this.edad}</p>
+                <p>Curso: ${this.curso}</p>
+                <p>Email: ${this.email}</p>
+                ${asignaturasHtml}
+                <p>Nota media: ${this.calcularMedia()}</p>
+                <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                `;
+            }
+        }
+
+        const alumno1 = new notas("Laura Sánchez", 20, "2º DAW", "laura@example.com",
+            ["Lenguaje de marcas", "Bases de datos", "Entornos"],
+            [8, 7.5, 9]);
+
+        const alumno2 = new notas("Pedro Martínez", 21, "1º DAM", "pedro@example.com",
+            ["Programación", "Sistemas", "BBDD"],
+            [6.5, 8, 7]);
+
+        const alumno3 = new notas("Elena Ruiz", 22, "2º DAM", "elena@example.com",
+            ["Interfaces", "Servicios", "Entornos", "Sistemas"],
+            [9, 8.5, 7.5, 8]);
+
+        const alumnos = [alumno1, alumno2, alumno3];
+
+        const contenedor = document.getElementById("resultado");
+        alumnos.forEach(function (alumno) {
+            contenedor.innerHTML = contenedor.innerHTML + alumno.mostrarDatos();
+        });
+
+    </script>
+</body>
+
+</html>

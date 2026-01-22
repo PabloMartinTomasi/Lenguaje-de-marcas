@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Fecha</title>
+</head>
+
+<body>
+    <button onclick="datos()">Obtener datos</button>
+    <div id="resultadoMedia"></div>
+
+    <script>
+        function datos() {
+            const hoy = new Date();
+
+            const resultado = `
+                <p><strong>Día del mes:</strong> ${hoy.getDate()}</p>
+                <p><strong>Día de la semana:</strong> ${hoy.getDay()}</p>
+                <p><strong>Mes:</strong> ${hoy.getMonth()}</p>
+                <p><strong>Año:</strong> ${hoy.getFullYear()}</p>
+                <p><strong>Hora:</strong> ${hoy.getHours()}</p>
+                <p><strong>Minutos:</strong> ${hoy.getMinutes()}</p>
+                <p><strong>Segundos:</strong> ${hoy.getSeconds()}</p>
+                <p><strong>Milisegundos:</strong> ${hoy.getMilliseconds()}</p>
+                <p><strong>Tiempo pasado desde el 1 de enero de 1970 en milisegundos:</strong> ${hoy.getTime()}</p>
+                <p><strong>Diferencia UTC (minutos):</strong> ${hoy.getTimezoneOffset()}</p>
+            `;
+
+            document.getElementById("resultadoMedia").innerHTML = resultado;
+        }
+    </script>
+</body>
+
+</html>
